@@ -3,47 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: pre-project.aux
 The style file: sbc.bst
 Database file #1: pre-project.bib
+Warning--empty institution in Kitchenham:2004
 Warning--empty booktitle in rumo-agricultura-digital
 Warning--empty booktitle in industria-40
-You've used 5 entries,
+You've used 13 entries,
             1935 wiz_defined-function locations,
-            493 strings with 4595 characters,
-and the built_in function-call counts, 1855 in all, are:
-= -- 173
-> -- 80
-< -- 4
-+ -- 26
-- -- 26
-* -- 141
-:= -- 329
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 38
-chr.to.int$ -- 5
-cite$ -- 7
-duplicate$ -- 81
-empty$ -- 129
-format.name$ -- 37
-if$ -- 365
+            548 strings with 6115 characters,
+and the built_in function-call counts, 4843 in all, are:
+= -- 460
+> -- 211
+< -- 9
++ -- 72
+- -- 70
+* -- 391
+:= -- 873
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 100
+chr.to.int$ -- 13
+cite$ -- 16
+duplicate$ -- 186
+empty$ -- 328
+format.name$ -- 93
+if$ -- 936
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
-newline$ -- 27
-num.names$ -- 15
-pop$ -- 44
+missing$ -- 12
+newline$ -- 69
+num.names$ -- 39
+pop$ -- 89
 preamble$ -- 1
-purify$ -- 38
+purify$ -- 100
 quote$ -- 0
-skip$ -- 61
+skip$ -- 141
 stack$ -- 0
-substring$ -- 86
-swap$ -- 10
+substring$ -- 283
+swap$ -- 16
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 2
-while$ -- 13
+type$ -- 76
+warning$ -- 3
+while$ -- 34
 width$ -- 0
-write$ -- 61
-(There were 2 warnings)
+write$ -- 167
+(There were 3 warnings)

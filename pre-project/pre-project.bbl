@@ -1,9 +1,34 @@
 \begin{thebibliography}{}
 
+\bibitem[Gutiérrez et~al. 2019]{Gutierrez:2019}
+Gutiérrez, F., Htun, N.~N., Schlenz, F., Kasimati, A., and Verbert, K. (2019).
+\newblock A review of visualisations in agricultural decision support systems:
+  An hci perspective.
+\newblock {\em Computers and Electronics in Agriculture}, 163:104844.
+
+\bibitem[Kitchenham 2004]{Kitchenham:2004}
+Kitchenham, B. (2004).
+\newblock Procedures for performing systematic reviews.
+\newblock Keele university. technical report tr/se-0401, Department of Computer
+  Science, Keele University, UK.
+
+\bibitem[Lundström and Lindblom 2018]{Lundstrom:2018}
+Lundström, C. and Lindblom, J. (2018).
+\newblock Considering farmers' situated knowledge of using agricultural
+  decision support systems (agridss) to foster farming practices: The case of
+  cropsat.
+\newblock {\em Agricultural Systems}, 159:9 -- 20.
+
 \bibitem[Massruhá and de~Andrade~Leite 2017]{rumo-agricultura-digital}
 Massruhá, S. M. F.~S. and de~Andrade~Leite, M.~A. (2017).
 \newblock Agro 4.0 - rumo à agricultura digital.
 \newblock pages 28--35.
+
+\bibitem[{Nações Unidas} 2020]{UN:2020}
+{Nações Unidas} (2020).
+\newblock 17 objetivos para transformar o nosso mundo.
+\newblock \url {https://nacoesunidas.org/pos2015/agenda2030/}.
+\newblock Acessado em: 29 mai. 2020.
 
 \bibitem[Ribeiro et~al. 2018]{agricultura-40}
 Ribeiro, J.~G., Marinho, D.~Y., and Espinosa, J. W.~M. (2018).
@@ -17,6 +42,13 @@ Rose, D.~C. and Chilvers, J. (2018).
   farming.
 \newblock {\em Frontiers in Sustainable Food Systems}, 2:87.
 
+\bibitem[Rupnik et~al. 2019]{Rupnik:2019}
+Rupnik, R., Kukar, M., Vračar, P., Košir, D., Pevec, D., and Bosnić, Z.
+  (2019).
+\newblock Agrodss: A decision support system for agriculture and farming.
+\newblock {\em Computers and Electronics in Agriculture}, 161:260 -- 271.
+\newblock BigData and DSS in Agriculture.
+
 \bibitem[Shepherd et~al. 2018]{digital-agriculture}
 Shepherd, M., Turner, J.~A., Small, B., and Wheeler, D. (2018).
 \newblock Priorities for science to overcome hurdles thwarting the full promise
@@ -26,5 +58,21 @@ Shepherd, M., Turner, J.~A., Small, B., and Wheeler, D. (2018).
 \bibitem[Souza and Sotsek 2017]{industria-40}
 Souza, L. A.~M. and Sotsek, N.~C. (2017).
 \newblock Indústria 4.0: uma revisão sistemática da literatura nacional.
+
+\bibitem[Torres 2013]{GTORRES:2013}
+Torres, G. (2013).
+\newblock {\em Hardware}.
+\newblock NovaTerra.
+
+\bibitem[Walling and Vaneeckhaute 2020]{Walling:2020}
+Walling, E. and Vaneeckhaute, C. (2020).
+\newblock Developing successful environmental decision support systems:
+  Challenges and best practices.
+\newblock {\em Journal of Environmental Management}, 264:110513.
+
+\bibitem[Zhai et~al. 2020]{Zhai:2020}
+Zhai, Z., Martínez, J.~F., Beltran, V., and Martínez, N.~L. (2020).
+\newblock Decision support systems for agriculture 4.0: Survey and challenges.
+\newblock {\em Computers and Electronics in Agriculture}, 170:105256.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  30 MAY 2020 11:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  24 MAY 2020 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,66 +145,22 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 \l@brazil = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
-Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen126
-\ar@mcellbox=\box27
-\extrarowheight=\dimen127
-\NC@list=\toks19
-\extratabsurround=\skip45
-\backup@length=\skip46
-\ar@cellbox=\box28
-)
-\everycr=\toks20
-\minrowclearance=\skip47
-)
-LaTeX Info: Redefining \color on input line 709.
-\rownum=\count96
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
 (./pre-project.aux)
 \openout1 = `pre-project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 19.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -247,17 +203,17 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count97
-\scratchdimen=\dimen128
-\scratchbox=\box29
-\nofMPsegments=\count98
-\nofMParguments=\count99
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count100
-\MPscratchDim=\dimen129
-\MPnumerator=\count101
-\makeMPintoPDFobject=\count102
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count96
+\scratchdimen=\dimen126
+\scratchbox=\box27
+\nofMPsegments=\count97
+\nofMParguments=\count98
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count99
+\MPscratchDim=\dimen127
+\MPnumerator=\count100
+\makeMPintoPDFobject=\count101
+\everyMPtoPDFconversion=\toks20
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -311,50 +267,42 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 25.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 25.
+(Font)              <6> on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 21.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 25.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omspcr.fd
-File: omspcr.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
-
-Overfull \hbox (51.20868pt too wide) in paragraph at lines 25--25
+Overfull \hbox (10.69916pt too wide) in paragraph at lines 21--21
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 27.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 23.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 
-Underfull \hbox (badness 1286) in paragraph at lines 37--38
+Underfull \hbox (badness 1286) in paragraph at lines 33--34
 \OT1/ptm/m/n/12 Ser[]ao gran-des os de-sa-fios re-la-ci-o-na-dos []a utiliza[][
 ]ao de tec-no-lo-gias di-gi-tais como
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 37--38
+Underfull \hbox (badness 4168) in paragraph at lines 33--34
 \OT1/ptm/m/n/12 fer-ra-men-tas de apoio ao tra-ba-lho hu-mano de forma efi-ci-e
 nte, efi-caz e justa
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 37--38
+Underfull \hbox (badness 2253) in paragraph at lines 33--34
 \OT1/ptm/m/n/12 [[]]. Para isso, a hu-ma-ni-dade apoia-se nas des-co-ber-tas e
  []
 
@@ -364,124 +312,31 @@ Underfull \hbox (badness 2253) in paragraph at lines 37--38
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 56.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
- [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
+(Font)              <7> on input line 69.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 70.
- [4]
-Underfull \hbox (badness 3919) in paragraph at lines 82--83
-[]\OT1/ptm/m/n/12 A ima-gem pode re-ce-ber informa[][]oes adi-ci-o-nais do usu[
-]ario no pr[]oprio
- []
+(Font)              <5> on input line 69.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-[]\OT1/ptm/m/n/12 Nos tra-ba-lhos de [[]] e
- []
-
-
-Underfull \hbox (badness 5817) in paragraph at lines 98--99
-\OT1/ptm/m/n/12 [[]] demonstra-se a im-port[]ancia da participa[][]ao do
- []
-
-[6] [7]
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 149.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
-)
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 149.
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 1$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 2$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 3$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 1$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 2$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 3$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 1$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 2$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 3$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 1$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--155
-[]|\OT1/ptm/m/n/12 2$[]$Q| 
- []
-
-
-Overfull \hbox (2.09213pt too wide) in paragraph at lines 155--156
-[]|\OT1/ptm/m/n/12 3$[]$Q| 
- []
-
-(./pre-project.bbl [8]) [9] (./pre-project.aux) ) 
+[3] [4] (./pre-project.bbl) [5] (./pre-project.aux) ) 
 Here is how much of TeX's memory you used:
- 5000 strings out of 492649
- 73062 string characters out of 6129621
- 176724 words of memory out of 5000000
- 8785 multiletter control sequences out of 15000+600000
- 25796 words of font info for 51 fonts, out of 8000000 for 9000
+ 4321 strings out of 492649
+ 64604 string characters out of 6129621
+ 147687 words of memory out of 5000000
+ 8136 multiletter control sequences out of 15000+600000
+ 22436 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,40p,1338b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf
--dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
-rw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helve
-tic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on pre-project.pdf (9 pages, 124543 bytes).
+ 43i,10n,40p,1137b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/t
+exmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb
+i8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on pre-project.pdf (5 pages, 85181 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 45 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
