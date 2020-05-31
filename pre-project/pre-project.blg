@@ -3,48 +3,44 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: pre-project.aux
 The style file: sbc.bst
 Database file #1: pre-project.bib
-Warning--empty institution in Kitchenham:2004
-Warning--empty booktitle in rumo-agricultura-digital
-Warning--empty booktitle in industria-40
 You've used 13 entries,
             1935 wiz_defined-function locations,
-            548 strings with 6115 characters,
-and the built_in function-call counts, 4843 in all, are:
-= -- 460
+            556 strings with 6241 characters,
+and the built_in function-call counts, 4865 in all, are:
+= -- 465
 > -- 211
 < -- 9
 + -- 72
 - -- 70
-* -- 391
-:= -- 873
-add.period$ -- 40
+* -- 390
+:= -- 878
+add.period$ -- 41
 call.type$ -- 13
 change.case$ -- 100
 chr.to.int$ -- 13
-cite$ -- 16
-duplicate$ -- 186
-empty$ -- 328
+cite$ -- 13
+duplicate$ -- 188
+empty$ -- 332
 format.name$ -- 93
-if$ -- 936
+if$ -- 945
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 12
-newline$ -- 69
+newline$ -- 70
 num.names$ -- 39
-pop$ -- 89
+pop$ -- 86
 preamble$ -- 1
 purify$ -- 100
 quote$ -- 0
-skip$ -- 141
+skip$ -- 140
 stack$ -- 0
 substring$ -- 283
-swap$ -- 16
+swap$ -- 18
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 76
-warning$ -- 3
+warning$ -- 0
 while$ -- 34
 width$ -- 0
-write$ -- 167
-(There were 3 warnings)
+write$ -- 171
