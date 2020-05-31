@@ -98,16 +98,18 @@ A utilização de \textit{smartphones} e computadores, propõe uma solução ace
 \subsection{Cenário Possível}
 \label{sec:cenario_possivel}
 
-Para ilustrar as possibilidades a serem exploradas, descreve-se um cenário hipotético imaginado no qual:
+Para ilustrar as possibilidades a serem exploradas, descreve-se a utilização de um aplicativo em um cenário hipotético no qual:
 
 \begin{enumerate}
-	\item Um usuário, motivado pelo desconhecimento de uma praga, captura uma imagem de um inseto em uma planta de soja usando seu \textit{smartphone};
-	\item A imagem pode receber informações adicionais do usuário no próprio \textit{smartphone}, tais como: anotações da quantidade, nome do inseto, enfatizando o tamanho do inseto e o estádio fenológico da planta;
-	\item Ainda na imagem, pode ser possível a inclusão de anotações ou destaques em pontos que pudessem ser circulados, pelo usuário, demonstrando pontos de atenção que pudessem ser analisados;
-	\item Duas imagens poderiam servir de fonte de dados: a original e a com as anotações do usuário;
-	\item Por conta de uma possível dificuldade de conexão (muito comum no cenário rural) o envio das informações pode não acontecer imediatamente. Mas a operação pode ser marcada como sucesso, deixando essa atividade uma fila de execução em \textit{background};
+	\item Um fazendeiro, motivado pelo desconhecimento de uma praga, captura uma imagem de um inseto em uma planta de soja usando seu \textit{smartphone};
+	\item A imagem pode receber informações adicionais no próprio \textit{smartphone}, tais como: anotações da quantidade, nome do inseto, enfatizando o tamanho do inseto e o estádio fenológico da planta;
+	\item Ainda na imagem, pode ser possível a inclusão de anotações ou destaques em pontos que pudessem ser circulados, pelo fazendeiro, demonstrando pontos de atenção que pudessem ser analisados;
+	\item Um engenheiro agrônomo, parceiro deste fazendeiro, analisa a mesma imagem em seu próprio perfil do aplicativo, de forma remota, inserindo e/ou complementando informações sobre o cenário investigado;
+	\item Todas as imagens poderiam servir de fonte de dados: a original, a com as anotações do fazendeiro e do engenheiro agrônomo;
+	\item Por conta de uma possível dificuldade de conexão (muito comum no cenário rural) o envio das informações poderia não acontecer imediatamente. Mas a operação pode ser marcada como sucesso, deixando essa atividade uma fila de execução em \textit{background};
 	\item O próprio sistema registra as coordenadas de geolocalização bem como e o momento (horário/dia) desta captura ou oferece a possibilidade de inserção manual destas informações (prevendo a instabilidade da conexão);
-	\item Ao receber as informações, um sistema computacional em nuvem, pode relacionar as imagens recebidas com uma ou mais imagens aéreas, capturadas por veículos aéreos não tripulados da mesma região onde está a planta ou regiões adjacentes em um ou mais momentos anteriores, buscando por insetos. Além disso, um outro ponto importante é que a base de conhecimento pode ser compartilhada, enriquecendo as informações a serem inferidas.
+	\item Ao receber as informações, um sistema computacional em nuvem, pode relacionar as imagens recebidas com uma ou mais imagens aéreas, capturadas por veículos aéreos não tripulados da mesma região onde está a planta, ou regiões adjacentes em um ou mais momentos anteriores, buscando por insetos;
+	\item O sistema computacional pode ainda utilizar utilizar bases de informações compartilhadas entre diferentes regiões e usuários amentando o refinamento na inferência das informações de apoio a decisão.
 \end{enumerate}
 
 \section{Métodos e Materiais}
