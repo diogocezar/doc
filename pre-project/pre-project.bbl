@@ -1,9 +1,24 @@
 \begin{thebibliography}{}
 
+\bibitem[aaaa ]{abnt-url-package=url}
+aaaa.
+
+\bibitem[{Adama Brasil} 2020]{AdamaAlvo:2020}
+{Adama Brasil} (2020).
+\newblock Adama alvo.
+\newblock \url {https://www.adama.com/brasil/pt/adama-inovacao/adama-alvo}.
+\newblock Acessado em: 29 mai. 2020.
+
+\bibitem[{Fundação Getúlio Vargas (FGV)} 2020]{FGV:2020}
+{Fundação Getúlio Vargas (FGV)} (2020).
+\newblock Pesquisa anual do uso de {TI}.
+\newblock \url {https://eaesp.fgv.br/ensinoeconhecimento/centros/cia/pesquisa}.
+\newblock Acessado em: 20 mai. 2020.
+
 \bibitem[Gutiérrez et~al. 2019]{Gutierrez:2019}
 Gutiérrez, F., Htun, N.~N., Schlenz, F., Kasimati, A., and Verbert, K. (2019).
 \newblock A review of visualisations in agricultural decision support systems:
-  An hci perspective.
+  An {HCI} perspective.
 \newblock {\em Computers and Electronics in Agriculture}, 163:104844.
 
 \bibitem[Kitchenham 2004]{Kitchenham:2004}
@@ -15,8 +30,8 @@ Kitchenham, B. (2004).
 \bibitem[Lundström and Lindblom 2018]{Lundstrom:2018}
 Lundström, C. and Lindblom, J. (2018).
 \newblock Considering farmers' situated knowledge of using agricultural
-  decision support systems (agridss) to foster farming practices: The case of
-  cropsat.
+  decision support systems ({AgriDSS}) to foster farming practices: The case of
+  {CropSAT}.
 \newblock {\em Agricultural Systems}, 159:9 -- 20.
 
 \bibitem[Massruhá and de~Andrade~Leite 2017]{Massruha:2017}
@@ -24,8 +39,8 @@ Massruhá, S. M. F.~S. and de~Andrade~Leite, M.~A. (2017).
 \newblock Agro 4.0 - rumo à agricultura digital.
 \newblock In {\em Embrapa Informática Agropecuária}, pages 28--35.
 
-\bibitem[{Nações Unidas} 2020]{UN:2020}
-{Nações Unidas} (2020).
+\bibitem[{Organização das Nações Unidas} 2020]{ONU:2020}
+{Organização das Nações Unidas} (2020).
 \newblock 17 objetivos para transformar o nosso mundo.
 \newblock \url {https://nacoesunidas.org/pos2015/agenda2030/}.
 \newblock Acessado em: 29 mai. 2020.
@@ -58,7 +73,7 @@ Shepherd, M., Turner, J.~A., Small, B., and Wheeler, D. (2018).
 \bibitem[Souza and Sotsek 2017]{Souza:2017}
 Souza, L. A.~M. and Sotsek, N.~C. (2017).
 \newblock Indústria 4.0: uma revisão sistemática da literatura nacional.
-\newblock In {\em XXXVII Encontra Nacional de Engenharia de Produção}.
+\newblock In {\em XXXVII Encontro Nacional de Engenharia de Produção}.
 
 \bibitem[Torres 2013]{Torres:2013}
 Torres, G. (2013).
