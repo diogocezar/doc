@@ -26,7 +26,8 @@
 \maketitle
      
 \begin{resumo} 
-A Agricultura 4.0 explora a utilização de tecnologias computacionais de ponta, envolvendo a Agricultura e Pecuária de Precisão, bem como a Agricultura Digital, que empregam a automação, a robótica agrícola, \textit{Big Data} e a Internet das Coisas, entre outras. A utilização dessas tecnologias busca uma produção agrícola eficiente e sustentável, possibilitando, por exemplo, a economia de água na irrigação ou de insumos na adubagem dos solos. Entretanto, o acesso aos recursos necessários para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Além disso, a resistência na adoção de novas tecnologias é um problema ainda em aberto. Este trabalho busca explorar soluções acessíveis a grande parte da cadeia agrícola, propondo um estudo direcionado ao aumento da eficácia na obtenção de dados a serem usados por sistemas computacionais. Mesmo em sistemas agrícolas de alta tecnologia, com aceitação dos usuários, as entradas dos usuários em campo por meio de \textit{smartphones}, e os tipos dessas entradas (imagens, voz, vídeo, modelos tridimensionais), ainda são negligenciadas no desenvolvimento desses sistemas. A preferência é por entradas provenientes de sensores (por exemplo, veículos aéreos não tripulados, satélites) e pela visualização das informações (saídas do sistema) para tomada de decisão. Dessa forma, deve ser realizado um estudo relacionado as informações de entradas do sistemas, especialmente por parte dos usuários de \textit{smartphones}. Uma solução pode ser por meio de aprimoramentos nas interfaces dos sistemas, não somente interfaces gráficas, melhorando a experiência do usuário, e principalmente, incluindo metadados empíricos, que aproximam o usuário do processamento computacional e consideram sua experiência prévia nos resultados a serem inferidos, para o apoio a tomada de decisão.\\
+A Agricultura 4.0 explora a utilização de tecnologias computacionais de ponta, envolvendo a Agricultura e Pecuária de Precisão, bem como a Agricultura Digital, que empregam a automação, a robótica agrícola, \textit{Big Data}, a Internet das Coisas, entre outras. A utilização dessas tecnologias busca uma produção agrícola eficiente e sustentável, possibilitando, por exemplo, a economia de água na irrigação ou de insumos na adubagem dos solos. Entretanto, o acesso aos recursos necessários para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Além disso, a resistência na adoção de novas tecnologias é um problema ainda em aberto. Este trabalho busca a exploração de metodologias, estudos e comprovações, por meio de experimentos, que direcionem soluções computacionais inseridas no contexto da Agricultura 4.0, com o intúito de apoiar o desenvolvimento de sistemas nesta área. Para isso, propõe-se a análise de técnicas para projetar, implementar e avaliar sistemas computacionais, de forma colaborativa e eficiente.\\
+
 \textbf{Palavras-chave:} Agricultura 4.0; Entradas do usuário; Sistema de apoio a decisão; Smartphones.
 \end{resumo}
 
@@ -59,7 +60,13 @@ Dessa forma, o presente projeto pode contribuir com determinados \textit{Objetiv
 \section{Objetivo}
 \label{sec:objetivo}
 
-O objetivo do presente trabalho é analisar as informações de entradas de usuários de dispositivos móveis que atuam em zonas agrícolas, especialmente \textit{smartphones}, para o desenvolvimento de sistemas computacionais no âmbito da Agricultura 4.0, incluindo sistemas de suporte a decisão agrícolas. As entradas não devem ser somente texto, com anotações e preenchimento de formulário de atributos, mas também: imagens, discursos (reconhecimento de voz), modelos tridimensionais, vídeos e etc; bem como combinações de entradas, como imagens com anotações textuais, ou sobreposições de destaques em áreas da imagem, permitindo maior ``interação'' com as imagens e demais entradas de dados. Os vídeos podem ser utilizados para registrar uma determinada sequência de eventos, descrevendo um fenômeno; modelos tridimensionais podem proporcionar detalhes de algum elemento da cultura (por exemplo, uma planta de soja), e podem ser construídos com imagens de diferentes ângulos de um objeto alvo. Outro ponto é a utilização de dispositivos, como os \textit{smartphones}, que se tornaram populares e possuem recursos para suportar essas entradas, como câmera e microfone.
+A proposta deste projeto é a exploração de metodologias, estudos e comprovações, por meio de experimentos, que direcionem soluções computacionais inseridas no contexto da Agricultura 4.0, com o intúito de apoiar o desenvolvimento de sistemas nesta área. Para isso, propõe-se a análise de técnicas para projetar, implementar e avaliar sistemas computacionais, de forma colaborativa e eficiente.
+
+A motivação para o presente trabalho, foi construída com base na análise de uma série de problemas, ainda abertos, na comunidade agrícola detalhados na Seção \ref{subsec:problema_investigado}. Estas questões, possibilitam a exploração de diretrizes para aprimorar a relação entre a tecnologia e a comunidade agrícola. Além disso, na exploração dos trabalhos relacionados (Seção \ref{subsec:problema_investigado}), fica evidente que a maioria dos trabalhos que aborda às inovações da Agricultura 4.0 foca nas saídas de dados (visualização de informações).e/ou entradas provenientes de sensores, permitindo um processamento para o apoio a tomada de decisão na produção agrícola.
+
+Por se tratar de um domínio muito grande, propõe-se o direcionamento dos estudos nos sub-domínios relacionados à forma de inserção dos dados nos sistemas computacionais agrícolas. Assim sendo, a proposta é aprimorar as diferentes dimensões de informações de  São poucas as explorações com relação ao refinamento das entradas de dados. \textbf{entrada de dados}, para o desenvolvimento de sistemas computacionais de suporte a decisão. 
+
+Explorando um a forma de como isso pode ser feito, nota-se que tais informações de entrada, não precisam ser somente texto. Normalmente essas informações são coletadas com anotações e preenchimento de formulário de atributos. Propõe-se a análise e comprovação da eficiêcia de outras técnicas como: análise deimagens, discursos (reconhecimento de voz), modelos tridimensionais, vídeos e etc; bem como combinações de entradas, como imagens com anotações textuais, ou sobreposições de destaques em áreas da imagem, permitindo maior ``interação'' com as imagens e demais entradas de dados. Os vídeos podem ser utilizados para registrar uma determinada sequência de eventos, descrevendo um fenômeno; modelos tridimensionais podem proporcionar detalhes de algum elemento da cultura (por exemplo, uma planta de soja), e podem ser construídos com imagens de diferentes ângulos de um objeto alvo. Outro ponto é a utilização de dispositivos, como os \textit{smartphones}, que se tornaram populares e possuem recursos para suportar essas entradas, como câmera e microfone.
 
 Dessa maneira, a análise deve permitir a criação de métodos de entrada de dados que levem em consideração não somente a transcrição exata do estado atual observado pelo coletor das informações, mas também os seus \textit{insigts} com base em sua experiência e observação. A análise deve considerar a necessidade dessas entradas, como forma de usar a experiência dos usuários em campo pelo sistema; o desenvolvimento das interfaces de \textit{smartphones} para essas entradas (gráficas e sintetizadores de voz); a diversidade de usuários (agricultores, técnicos agrícolas, engenheiros agrônomos); a relação dessas entradas com outras informações (imagens, temperatura, umidade, biomassa etc), provenientes de sensores, como dispositivos posicionados na plantação, imagens de satélites, veículos aéreos não tripulados, etc, podendo complementar o processamento de informações.
 
@@ -76,10 +83,12 @@ A análise engloba determinadas questões:
 	\item Qual é o impacto do uso massivo de \textit{smartphones} (energia, conexão com rede de comunicação, memória) no campo?
 \end{itemize}
 
+A \textbf{colaboração} é uma questão importante a ser abordada, pois permite que as entradas de dados sejam enriquecidas com diversas dimensões sobre um mesmo evento observado. Esse assunto é argumento na Seção \ref{sec:analise_critica_relevancia}
+
+A \textbf{eficiência} das métricas e metodologias a serem propostas pelo trabalho, deverão passar por um processo de comprovação melhor detalhado na Seção \ref{sec:metodos_materiais}. Para isso, após definição do objeto de estudo principal do trabalho, deve-se desenvolver uma solução que aplique as métricas e diretrises identificadas como hipóteses, com o intúito de realizar a comprovação de sua eficiência e eficácia.
+
 \section{Trabalhos Relacionados}
 \label{sec:trabalhos_relacionados}
-
-Na exploração dos trabalhos relacionados, fica evidente que a maioria dos trabalhos que aborda às inovações da Agricultura 4.0 foca nas saídas de dados (visualização de informações), e entradas provenientes de sensores, permitindo um processamento para o apoio a tomada de decisão na produção agrícola. São poucas as explorações com relação ao refinamento das entradas de dados. 
 
 O trabalho de \citeonline{Zhai:2020} apresenta como desafios para os sistemas de apoio a decisão agrícola: a simplificação de interfaces gráficas dos usuários e utilização de conhecimento dos especialistas do domínio do sistema. Além disso, são abordadas alternativas às entradas de dados comuns, como por exemplo: a utilização do reconhecimento de voz ou a utilização gestos. Outro ponto importante está relacionado ao processo de extração das informações da fonte de dados. Modelos tridimensionais, análise de imagens ou vídeos, e imagens interativas podem ser pontos ainda a serem explorados no contexto em que este trabalho se aplica. Este tema relaciona-se com o trabalho proposto validando a necessidade do aprimoramento das interfaces utilizadas para a extração dos dados de forma eficiente e agradável.
 
@@ -111,68 +120,41 @@ A utilização de \textit{smartphones} e computadores propõe uma solução aces
 
 Como pode ser visto em \citeonline{Massruha:2017}, e nos trabalhos relacionados (Seção \ref{sec:trabalhos_relacionados}), o foco de sistemas computacionais na Agricultura 4.0 está nos resultados obtidos pelas informações fornecidas por meio das saídas desses sistemas. No cenário proposto pela Agricultura 4.0, grande parte dos trabalhos evidenciam que as informações que alimentam os sistemas, podem ser obtidas de forma automatizada, através de sensores ou pela análise de imagens, por exemplo. Entretanto, nem sempre essa é uma realidade aplicável a todos, pelo alto custo e difícil aderência. Outros sistemas, mesmo que completos em termos de sensores e outros recursos tecnológicos, utilizam ainda, entrada manual de informações por parte dos seus usuários, normalmente por meio de formulários com campos pré definidos (comumente dados no formato texto). Sensores e outros recursos também exigem monitoramento de energia, manutenção e desempenho.
 
-\subsection{Problema a ser Investigado}
+\section{Problema a ser Investigado}
 \label{subsec:problema_investigado}
 
-O problemática a ser resolvida pelo trabalho proposto está dividida nos seguintes tópicos:
+O principal problema de pesquisa a ser tratado por este trabalho está relacionado a questões sobre como projetar, implementar e avaliar sistemas computacionais colaborativos eficientes para apoiar a tomada de decisão dos usuários no domínio da agricultura 4.0.
 
-\subsubsection{Entrada de Dados Acessível}
+Os seguintes tópicos resumem em linhas gerais, quais são os problemas a serem explorados durante o desenvolvimento do projeto:
+
+\subsection{Entrada de Dados Acessível}
 \label{subsubsec:entrada_dados_acessivel}
-
-% 1 - Por que informações de entrada de sistemas agrícolas provenientes dos usuários são pouco exploradas na literatura? Os sensores e outros recursos suprem a necessidade?
 
 São poucos os trabalhos encontrados na literatura que descatam a importância no processo de coleta de dados dos sistemas de apoio a decisão. Grande parte dos trabalhos, como demontrado em \cite{Massruha:2017} possuem o foco nos processos de análise e apoio a decisão. Estes trabalhos de pesquisa, normalmente, são suportados por grandes instituições (como Universidades ou empresas privadas) que provêm recursos (como sensores ou drones) para a captação de dados no desenvolvimento dos experimentos. Com tais recursos, os experimentos tendem a focar nos processos que geram os resultados e consequentemente demonstram a eficiência e a eficácia das técnicas propostas pela Agricultura 4.0. Entretanto essa não é a realidade de grande parte dos agricultores, como argumenta \cite{Rose:2019}. Os estudos propostostos por este trabalho, ajudam a resolver o problema da falta de acessibilidade aos recursos necessários para obtenção de dados, permitindo, mesmo que de uma forma menos eficiente e automatizada, a utilização de tecnologias da Agricultura 4.0 por qualquer usuário da cadeia agícola que possua apenas um \textit{smartphone}.
 
-\subsubsection{Entrada Direcionada}
+\subsection{Entrada Direcionada}
 \label{subsubsec:entrada_direcionada}
-
-% 3 - As informações dos usuários poderiam reduzir o uso de sensores, que consomem energia e necessitam de manutenção, e até mesmo o processamento do sistema, que também consome recursos? A “intuição” do agricultor permitiria encontrar uma região problemática na plantação, que estaria sofrendo um ataque de pragas, colocando a informação no sistema antes de um drone capturar a informação na plantação, o sistema analisar e encontrar a mesma região?
 
 No âmbito agrícola, é bastante comum termos grandes áreas de plantio. Mapear toda a área com dispositivos automatizados poderia gerar um custo muito grande para os agricultores, principalmente se destarcamos a necessidade de manutenção dos equipamentos que captam as informações dos campos, bem como o consumo de energia elétrica por estes dispositivos. Nesse cenário o presente trabalho também atua na pesquisa de alternativa que possibilitem envolver os fazendeiros no processo de obtenção dos dados. Isso poderia ser feito utlizando a sua experiência e conhecimento de sua propriedade para intuitivamente direcionar a coleta de dados em áreas que pudessem apresentar uma anomalia.
 
-\subsubsection{Arguição dos Especialistas}
+\subsection{Arguição dos Especialistas}
 \label{subsubsec:arquicao_especialistas}
-
-% 2 - As informações de usuários especialistas diretas do campo poderiam auxiliar no processamento de sistemas agrícolas, combinando com as informações de sensores? O usuário confirmaria em campo a presença de uma praga detectada em imagem capturada por um drone ou adicionaria outras informações.
 
 A utilização de recursos automatizados como drones ou sensores tendem a facilitar muito o processo de obtenção de dados em uma fazenda que aplica técnicas da Agricultura 4.0. Tratando de cenários nos quais essa já seja uma realidade, estes recursos automatizados normalmente apenas armazenam uma representação da realidade obtida em algum instante. Por exemplo, um sensor de humidade, poderia registrar os índices de humidade do solo a cada hora. Ou ainda, um drone, poderia fotografar uma área com baixa produtividade. Estes dados não levam em consideração alguns aspéctos que poderiam ser enriquecidos com a arguição de um especista, por exemplo um agrônomo. Por este motivo, este trabalho propõe a investigação de técnicas que possibilitem a inclusão de novas dimensões na coleta de dados, unindo por exemplo, a obtenção automática da humidade do solo com informações e experiências de um agrônomo especialista, que poderia por exemplo, informar que apesar de uma leitura de humidade ter ficado fora da expectativa, isso foi advento de uma anormalidade, por ele observada.
 
-% 5 - A diversidade de usuários (agricultores, técnicos agrícolas, engenheiros agrônomos) permitiria a análise de uma mesma informação por diferentes pontos de vista antes do processamento por parte do sistema, economizando recursos?
-
 Para os cenários nos quais se utiliza a captação automática dos dados, boa parte das abordagens visto em \cite{Massruha:2017} fazem essa captura de forma contínua e initerruptamente, propondo abordagens que tratem grandes volumes de dados. Esta abordagem por gerar grandes custos, inserindo, por exemplo, dados muitos parecidos que não ajudam na inferência nos resultados dos sistemas de apoio a decisão. Ao utilizar tratativas com mais dimensões, criando por exemplo visões diferentes de agricultores, técnicos agrícolas ou engenheiros agrônomos sobre uma mesma entrada de dados, poderia ajudar na obtenção de dados mais refinados e consequentemente na economia de recursos para manter a coleta automatizada.
 
-\subsubsection{Interações Manuais}
-
-% 4 - Há informações, como a identificação de um inseto em uma planta com densa vegetação, que não seriam possíveis adquirir sem manusear a planta? É possível que um drone não possa capturar a informação de um inseto em uma planta com densa vegetação sobrevoando a planta?
+\subsection{Interações Manuais}
 
 Quando se trata de agricultura, podemos extender a uma infinidade de procedimentos de análise em diversos tipos de cenários. Existem diversos tipos de plantações: soja, milho, café, entre outros. Cada plantação possui sua particularidade. Em cenários nos quais uma plantação apresente vegerações mais densas, entende-se como um problema a captação automática de evidências que comprovem a presença de algum tipo de praga. Essencialmente, apresença dos agricultores e fazendeiros, no dia a dia, analisando as plantações é essencial para o acompanhamento do seu processo produtivo. Uma vegetação densa, poderia esconder uma praga de uma foto aérea feita por um drone, por exemplo. No trabalho proposto, busca-se uma alternativa a este cenário, permitindo a inclusão manual destas informações que podem ser importantes para análise de inferências de apoio a decisão.
 
-% 6 - Diversos tipos de informações (imagens, voz, vídeos e modelos tridimensionais, combinação desses tipos) seriam relevantes para o sistema ou consumiria mais recursos? Custo benefício…..
-
-% Aqui eu não consegui pensar numa forma de elaborarmos.
-
-\subsubsection{Experiência e Interface}
-
-7 - Qual é o impacto de diferentes tipos de informações e usuários na interação humano-computador, especialmente nas interfaces de smartphones?
+\subsection{Experiência e Interface}
 
 A experiência do usuário com um dispositivo computacional pode influenciar diretamente na adoção de novas tecnologias ou sistemas. É bastante comum a resistência por parte de novos usuários na adoção de sistemas que ainda não tiverem contato. Como objeto de estudos deste trabalho, propõe-se ainda, descobertas relacionadas ao entendimento do perfil do público alvo, e a criação e exploração de personas, que representem os usuários e suas peculiaridades. Criando, desta forma, interfaces que possam ser objetivas, claras, atrativas e principalmente funcionais. Outro desafio a ser explorado é a interação multi-dimensional da entrada de dados, que propõe-se ser refinada, simultaneamente, por diversos colaboradores e que resultem em uma única fonte de dados, possibilitando a inferência de apoio a decisão extraídas de dados refinados e alinhados com as realidades do cenário agrícola apontado por parte da cadeia que já atua na manutenção desta propriedade.
 
-\subsection{Cenário Possível}
-\label{sec:cenario_possivel}
+No apêndice \ref{ape:problemas} estão listados, de forma expandandia estes e outros possíveis problemas a serem analisados.
 
-Para ilustrar as possibilidades a serem exploradas, descreve-se a utilização de um aplicativo em um cenário hipotético, no qual:
-
-\begin{enumerate}
-	\item Um fazendeiro, motivado pelo desconhecimento de uma praga, captura uma imagem de um inseto em uma planta de soja usando seu \textit{smartphone};
-	\item A imagem pode receber informações adicionais no próprio \textit{smartphone}, tais como: anotações da quantidade, nome do inseto, enfatizando o tamanho do inseto e o estádio fenológico da planta;
-	\item Ainda na imagem, pode ser possível a inclusão de anotações ou destaques em pontos que pudessem ser circulados, pelo fazendeiro, demonstrando pontos de atenção que pudessem ser analisados;
-	\item Um engenheiro agrônomo, parceiro deste fazendeiro, analisa a mesma imagem em seu próprio perfil do aplicativo, de forma remota, inserindo e/ou complementando informações sobre o cenário investigado;
-	\item Todas as imagens poderiam servir de fonte de dados: a original, a com as anotações do fazendeiro e do engenheiro agrônomo;
-	\item Por conta de uma possível dificuldade de conexão (muito comum no cenário rural) o envio das informações poderia não acontecer imediatamente. Mas a operação pode ser marcada como sucesso, deixando essa atividade uma fila de execução em \textit{background};
-	\item O próprio sistema registra as coordenadas de geolocalização bem como o momento (horário/dia) desta captura ou oferece a possibilidade de inserção manual destas informações (prevendo a instabilidade da conexão);
-	\item Ao receber as informações, um sistema computacional em nuvem, pode relacionar as imagens recebidas com uma ou mais imagens aéreas, capturadas por veículos aéreos não tripulados da mesma região onde está a planta, ou regiões adjacentes em um ou mais momentos anteriores, buscando por insetos. O sistema computacional pode registrar dia e horário de captura da imagem, de modificação, de envio com sucesso;
-	\item O sistema computacional pode ainda utilizar utilizar bases de informações compartilhadas entre diferentes regiões e usuários aumentando o refinamento na inferência das informações de apoio a decisão.
-\end{enumerate}
+No apêncide \ref{ape:cenario_possivel} ilustra-se um possível cenário, com a utilização de um aplicativo hipotético aplicando alguns dos conceitos a serem explorados pelo trabalho.
 
 \section{Métodos e Materiais}
 \label{sec:metodos_materiais}
@@ -261,9 +243,55 @@ Com o objetivo de manter a constante comunicação, e principalmente o acompanha
 
 Pretende-se com a análise das entradas de informações dos usuários, verificar a importância e o impacto dessas informações nos sistemas computacionais para a Agricultura 4.0, permitindo o desenvolvimento de sistemas para uma produção agrícola eficiente e sustentável. Conforme a literatura, há um maior interesse nas saídas de informações para os usuários em sistemas computacionais para a agricultura, especialmente nos sistemas de apoio a tomada de decisão. Outros tipos de informações, como imagens, voz, modelos tridimensionais e vídeos, inseridos pelos usuários em campo por meio de \textit{smartphones}, podem ser explorados, além das entradas baseadas em textos e devido a popularização e recursos desses dispositivos.
 
-Espera-se, por fim, a submissão de artigos para conferências e periódicos científicos da área de Ciência da Computação para publicação, como o \textit{ACM Computing Surveys}, \textit{Computer Graphics and Applications}, \textit{Journal on Interactive Systems}, \textit{Computers and Electronics in Agriculture}, \textit{Symposium on Applied Computing}, Simpósio Brasileiro de Engenharia de Software. 
+Espera-se, por fim, a submissão de artigos para conferências e periódicos científicos da área de Ciência da Computação para publicação, como o \textit{ACM Computing Surveys}, \textit{Computer Graphics and Applications}, \textit{Journal on Interactive Systems}, \textit{Computers and Electronics in Agriculture}, \textit{Symposium on Applied Computing}, Simpósio Brasileiro de Engenharia de Software.
 
 \bibliographystyle{sbc}
 \bibliography{pre-project}
+
+\appendix
+
+\section{Problemas de Pesquisa}
+\label{ape:problemas}
+
+A seguir lista-se características de sistemas colaborativos (gerais e específicos), relacionadas entre sí, e seus possíveis problemas:
+
+\begin{itemize}
+	\item \textbf{atualização em tempo real} - Problemas: múltiplos acessos simultâneos; necessidade de exibição de alertas e erros sobre atrasos; regras de funcionamento (entrada, processamento e saída);
+	\item \textbf{múltiplos dispositivos para entrada e saída de dados} - Por exemplo: smartphones, desktops, sensores e robôs. Problemas: integração; interoperabilidade; escalabilidade de dispositivos; tolerância a falhas - possibilidade de substituição de sensores danificados;
+	\item \textbf{múltiplos usuários} - Por exemplo: agricultores, técnicos agrícolas, engenheiros agrônomos. Problemas: usabilidade (facilidade de uso, segurança, satisfação, acessibilidade, memorização do usuário), envolvendo interfaces humano-computador e formas de interação; definição de grupos de usuários; carga cognitiva (muitas tecnologias e formas de uso); escalabilidade de usuários; regras de uso; atribuição de significado e interpretação das informações;
+	\item \textbf{múltiplas plataformas das fontes de entrada} - Por exemplo: diveras plataformas de smartphones. Problemas: integração; interoperabilidade; usabilidade (facilidade de uso, segurança, satisfação, acessibilidade, memorização do usuário), envolvendo interfaces humano-computador e formas de interação;
+	\item \textbf{múltiplos tipos de informações de entrada} - Por exemplo: imagens, voz, texto e vídeos. Problemas: armazenamento e processamento (imagens podem ocupar mais espaço), usabilidade (facilidade de uso, segurança, satisfação, acessibilidade, memorização), envolvendo interfaces humano-computador e formas de interação; carga cognitiva (muitas tecnologias e formas de uso;
+	\item \textbf{múltiplos tipos de informações de saída} - Por exemplo: imagens, áudio, texto, modelos tridimensionais e vídeos. Problemas: armazenamento e processamento, usabilidade (facilidade de uso, segurança, satisfação, acessibilidade, memorização), envolvendo interfaces humano-computador e formas de interação; carga cognitiva (muitas tecnologias e formas de uso);
+	\item \textbf{múltiplas informações sobre o domínio} - Por exemplo: planta, clima, pragas, ervas daninhas, doenças. Problemas: especificação de subdomínios; granularidade (sistema incorpora informações em atualizações); relação dos subdomínios – planta e clima, planta, pragas e clima);
+	\item \textbf{informações de entradas de múltiplos usuários} - Por exemplo: agricultores, técnicos agrícolas, engenheiros agrônomos. Problemas: problemas de conexão com a Internet em regiões afastadas; de consumo de energia; de prioridade dependendo do nível do usuário e do nível de grupo de usuários do mesmo nível; de necessidade de diferentes interfaces humano-computador e formas de interação; de necessidade de definição de níveis e grupos; de processamento e armazenamento local, envolvendo o que pode ser processado e armazenado localmente de acordo com os recursos de hardware e software, o consumo de energia, de maneira a não prejudicar a entrada de novas informações
+	\item \textbf{informações de saídas para múltiplos usuários} - Por exemplo: agricultores, técnicos agrícolas, engenheiros agrônomos. Problemas: de usabilidade (facilidade de uso, segurança, satisfação, acessibilidade, memorização), preferências dos usuários, envolvendo interfaces humano-computador e formas de interação);
+	\item \textbf{informações de entradas de múltiplos sensores e robôs} - Problemas: conexão com a Internet em regiões afastadas; de nível de autonomia; de consumo de energia; de processamento e armazenamento local, envolvendo o que pode ser processado e armazenado localmente de acordo com os recursos de hardware e software, o consumo de energia, de maneira a não prejudicar a entrada de novas informações)
+	\item \textbf{priorização das informações do domínio} - Por exemplo: o processamento de determinadas informações tem prioridade. Por exemplo, uma atividade de colheita está em andamento e o processamento de informações sobre o clima tem prioridade sobre o processamento de informações sobre pragas, no entanto, pode-se perder inferências. Problemas: necessidade da participação de usuários para definição de prioridades; da inviabilidade devido a quantidade de informações e necessidade de agrupamento (clusters) de informações por data, região, clima, tipo da informação, fonte, ou combinação (região e clima); flexibilidade na combinação de informações)
+	\item \textbf{sincronização das informações de entrada na nuvem (cloud computing), que  envolve:}
+		\begin{itemize}
+			\item \textbf{priorização da informação a ser processada: a mesma informação é recebida pelo servidor ao mesmo tempo de diferentes fontes} - Por exemplo: do sensor A e do usuário 1. Problemas: identificação das similaridades; definição de prioridades com a participação de usuários;
+			\item \textbf{complementação da informação: a mesma informação é recebida pelo servidor ao mesmo tempo de diferentes fontes} - Exemplo: sensor A e do usuário 1), mas de diferentes tipos (texto, imagem e voz), e elementos podem ser extraídos para completar ou confirmar a informação. Problemas: identificação das diferenças, extração e complemento; custo/benefício da  confirmação em termos de processamento, recursos utilizados;
+			\item \textbf{completude da informação} - Por exemplo: a informação é recebida pelo servidor, mas incompleta, como por exemplo, uma imagem incompleta. Problemas: identificação das lacunas e correção, por aproximação, interpolação, utilização de um outro tipo de informação, adoção de um padrão, emissão de avsios para usuários sobre a necessidade de completar a informação – dependência de conexão com a Internet, energia, processamento; custo/benefício de cada forma de completude)
+			\item \textbf{informação adicional automática} - Por exemplo: uma informação adicional é adicionada automaticamente em uma informação capturada pelo usuário. Por exemplo, o usuário captura uma imagem usando o smartphone, e o sistema busca automaticamente a geolocalização e o clima. Problemas: conexão com a Internet em regiões afastadas; de consumo de energia; de processamento e armazenamento local, envolvendo o que pode ser processado e armazenado localmente de acordo com os recursos de hardware e software, o consumo de energia, de maneira a não prejudicar a entrada de novas informações);
+			\item \textbf{classificação da informação após o processamento} - Por exemplo: informação foi útil, parcialmente útil ou inútil, atribuindo nível de qualidade para a informação. Problemas: custo/benefício para a classificação; de necessidade da participação de usuários; da inviabilidade devido a quantidade de informações e necessidade de agrupamento (clusters) de informações por data, região, clima, tipo da informação, fonte, ou combinação (região e clima); flexibilidade na combinação de informações);
+		\end{itemize}
+\end{itemize}
+
+\section{Cenário Possível}
+\label{ape:cenario_possivel}
+
+Para ilustrar as possibilidades a serem exploradas, descreve-se a utilização de um aplicativo em um cenário hipotético, no qual:
+
+\begin{enumerate}
+	\item Um fazendeiro, motivado pelo desconhecimento de uma praga, captura uma imagem de um inseto em uma planta de soja usando seu \textit{smartphone};
+	\item A imagem pode receber informações adicionais no próprio \textit{smartphone}, tais como: anotações da quantidade, nome do inseto, enfatizando o tamanho do inseto e o estádio fenológico da planta;
+	\item Ainda na imagem, pode ser possível a inclusão de anotações ou destaques em pontos que pudessem ser circulados, pelo fazendeiro, demonstrando pontos de atenção que pudessem ser analisados;
+	\item Um engenheiro agrônomo, parceiro deste fazendeiro, analisa a mesma imagem em seu próprio perfil do aplicativo, de forma remota, inserindo e/ou complementando informações sobre o cenário investigado;
+	\item Todas as imagens poderiam servir de fonte de dados: a original, a com as anotações do fazendeiro e do engenheiro agrônomo;
+	\item Por conta de uma possível dificuldade de conexão (muito comum no cenário rural) o envio das informações poderia não acontecer imediatamente. Mas a operação pode ser marcada como sucesso, deixando essa atividade uma fila de execução em \textit{background};
+	\item O próprio sistema registra as coordenadas de geolocalização bem como o momento (horário/dia) desta captura ou oferece a possibilidade de inserção manual destas informações (prevendo a instabilidade da conexão);
+	\item Ao receber as informações, um sistema computacional em nuvem, pode relacionar as imagens recebidas com uma ou mais imagens aéreas, capturadas por veículos aéreos não tripulados da mesma região onde está a planta, ou regiões adjacentes em um ou mais momentos anteriores, buscando por insetos. O sistema computacional pode registrar dia e horário de captura da imagem, de modificação, de envio com sucesso;
+	\item O sistema computacional pode ainda utilizar utilizar bases de informações compartilhadas entre diferentes regiões e usuários aumentando o refinamento na inferência das informações de apoio a decisão.
+\end{enumerate}
 
 \end{document}
