@@ -1,51 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: pre-project.aux
+The top-level auxiliary file: project.aux
 The style file: sbc.bst
 Database file #1: abntex2-options.bib
 Warning--entry type for "abnt-url-package=url" isn't style-file defined
 --line 199 of file abntex2-options.bib
-Database file #2: pre-project.bib
+Database file #2: project.bib
 Warning--empty year in abnt-url-package=url
-You've used 16 entries,
+You've used 15 entries,
             1935 wiz_defined-function locations,
-            570 strings with 6594 characters,
-and the built_in function-call counts, 5557 in all, are:
-= -- 541
-> -- 225
-< -- 11
-+ -- 76
-- -- 74
-* -- 432
-:= -- 1009
-add.period$ -- 50
-call.type$ -- 16
-change.case$ -- 117
-chr.to.int$ -- 16
-cite$ -- 17
-duplicate$ -- 218
-empty$ -- 380
-format.name$ -- 99
-if$ -- 1077
+            565 strings with 6470 characters,
+and the built_in function-call counts, 5303 in all, are:
+= -- 513
+> -- 218
+< -- 10
++ -- 74
+- -- 72
+* -- 417
+:= -- 958
+add.period$ -- 46
+call.type$ -- 15
+change.case$ -- 111
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 208
+empty$ -- 365
+format.name$ -- 96
+if$ -- 1030
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 12
-newline$ -- 85
-num.names$ -- 45
-pop$ -- 98
+newline$ -- 79
+num.names$ -- 42
+pop$ -- 96
 preamble$ -- 1
-purify$ -- 118
+purify$ -- 112
 quote$ -- 0
-skip$ -- 162
+skip$ -- 153
 stack$ -- 0
-substring$ -- 319
+substring$ -- 307
 swap$ -- 18
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 94
+type$ -- 88
 warning$ -- 1
-while$ -- 38
+while$ -- 36
 width$ -- 0
-write$ -- 206
+write$ -- 192
 (There were 2 warnings)
