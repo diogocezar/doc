@@ -1,8 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[aaaa ]{abnt-url-package=url}
-aaaa.
-
 \bibitem[{Fundação Getúlio Vargas (FGV)} 2020]{FGV:2020}
 {Fundação Getúlio Vargas (FGV)} (2020).
 \newblock Pesquisa anual do uso de {TI}.
@@ -14,12 +11,6 @@ Gutiérrez, F., Htun, N.~N., Schlenz, F., Kasimati, A., and Verbert, K. (2019).
 \newblock A review of visualisations in agricultural decision support systems:
   An {HCI} perspective.
 \newblock {\em Computers and Electronics in Agriculture}, 163:104844.
-
-\bibitem[Kitchenham 2004]{Kitchenham:2004}
-Kitchenham, B. (2004).
-\newblock Procedures for performing systematic reviews.
-\newblock Keele university. technical report tr/se-0401, Keele University,
-  Department of Computer Science, Keele University, UK.
 
 \bibitem[Lundström and Lindblom 2018]{Lundstrom:2018}
 Lundström, C. and Lindblom, J. (2018).

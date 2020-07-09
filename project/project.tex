@@ -11,7 +11,7 @@
      
 \sloppy
 
-\title{Um estudo sobre sistemas colaborativos eficientes para os usuários no contexto da Agricultura 4.0}
+\title{Um estudo sobre sistemas colaborativos eficientes para os usuários no contexto da agricultura 4.0}
 
 \author{Diogo C. T. Batista\inst{1}, Cléber G. Corrêa\inst{1}, Letícia M. Peres\inst{2}, Roberto Pereira\inst{2}}
 
@@ -29,7 +29,7 @@
 \maketitle
      
 \begin{resumo} 
-A Agricultura 4.0 explora a utilização das mais atuais tecnologias computacionais envolvendo a agricultura e pecuária de precisão, bem como a agricultura digital, que empregam a automação, a robótica agrícola, \textit{big data}, a Internet das Coisas, entre outras. A utilização dessas tecnologias busca uma produção agrícola eficiente e sustentável, possibilitando, por exemplo, a economia de água na irrigação ou de insumos na adubagem dos solos. Entretanto, o acesso aos recursos necessários para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Adicionalmente, a resistência na adoção de novas tecnologias é um problema ainda em aberto. Este trabalho busca a exploração de métodos ou técnicas e ferramentas, que no contexto da engenharia de software, direcionem soluções computacionais inseridas no contexto da agricultura 4.0, com o intuito de apoiar o desenvolvimento de sistemas colaborativos eficientes na realização de tarefas por usuários do setor agrícola.\\
+A agricultura 4.0 explora a utilização das mais atuais tecnologias computacionais envolvendo a agricultura e pecuária de precisão, bem como a agricultura digital, que empregam a automação, a robótica agrícola, \textit{big data}, a Internet das Coisas, entre outras. A utilização dessas tecnologias busca uma produção agrícola eficiente e sustentável, possibilitando, por exemplo, a economia de água na irrigação ou de insumos na adubagem dos solos. Entretanto, o acesso aos recursos necessários para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Adicionalmente, a resistência na adoção de novas tecnologias é um problema ainda em aberto. Este trabalho busca a exploração de métodos ou técnicas e ferramentas, que no contexto da engenharia de software, direcionem soluções computacionais inseridas no contexto da agricultura 4.0, com o intuito de apoiar o desenvolvimento de sistemas colaborativos eficientes na realização de tarefas por usuários do setor agrícola.\\
 
 \textbf{Palavras-chave:} agricultura 4.0; sistemas colaborativos; sistemas de apoio a decisão.
 \end{resumo}
@@ -43,67 +43,85 @@ Muito tem se falado sobre a Quarta Revolução Industrial, que surge em 2011 na 
 
 Além da indústria, outro setor que evoluiu muito ao longo dos anos foi a agricultura. Esta foi fundamental para alavancar o desenvolvimento das civilizações ao longo da história, possibilitando que comunidades nômades se estabilizassem em determinadas regiões, explorando técnicas agrícolas para a produção de seu sustento. Entretanto, o cenário atual é bem diferente dos enfrentados pelas primeiras civilizações, o crescimento populacional gera um grande desafio para o setor agrícola, que precisa se posicionar eficientemente para atender essas demandas de forma sustentável. Dessa forma, novas técnicas têm sido exploradas, e estas, compõem o termo agricultura 4.0. Estas técnicas utilizam os mesmos métodos e processos inovadores já explorados pela indústria 4.0, incluindo: a automação, a robótica, \textit{big data} e internet das coisas, em um contexto de agricultura e pecuária de precisão e agricultura digital \cite{Ribeiro:2018}.
 
-A utilização de componentes tecnológicos não é uma novidade na agricultura, a exploração, por exemplo, de tecnologias como o \textit{Global Positioning System} (GPS), estão presentes há algum tempo na linha de produção agrícola, conhecida como agricultura de precisão. A agricultura 4.0 expande as possibilidades de explorações tecnológicas, com a utilização por exemplo de: \textbf{sensores}; que possibilitam a coleta automática de dados sobre o solo e clima; \textbf{Veículos Aéreos Não Tripulados (VANTs ou \textit{drones}) ou satélites}, que podem apresentar recursos de imagem cada vez mais avançados; \textbf{smartphones}, que proporcionam uma interface de entrada e saída de dados rápida, acessível e conhecida por usuários de dispositivos eletrônicos \cite{Shepherd:2018}.
+A utilização de componentes tecnológicos não é uma novidade na agricultura, a exploração, por exemplo, de tecnologias como o \textit{Global Positioning System} (GPS), estão presentes há algum tempo na linha de produção agrícola, conhecida como agricultura de precisão. A agricultura 4.0 expande as possibilidades de explorações tecnológicas, com a utilização por exemplo de: sensores; que possibilitam a coleta automática de dados sobre o solo e clima; Veículos Aéreos Não Tripulados (VANTs ou \textit{drones}) ou satélites, que podem apresentar recursos de imagem cada vez mais avançados; smartphones, que proporcionam uma interface de entrada e saída de dados rápida, acessível e conhecida por usuários de dispositivos eletrônicos \cite{Shepherd:2018}.
 
 A agricultura 4.0, com a utilização de sistemas de apoio a decisão, pode levar a produção mais eficientes, inteligente e sustentável. Entretanto, essa transição não é uma tarefa trivial. Segundo \citeonline{Rose:2019}, a utilização destas ferramentas tecnológicas devem mudar a forma como os agricultores interagem com suas plantações, com isso, cada vez menos os trabalhadores precisarão atuar em atividades manuais, mudando a forma de como sempre interagiram com seu ofício. E isso pode dificultar a adesão a novas tecnologias. A utilização das técnicas relacionadas a agricultura de precisão demonstraram certa resistência por parte dos agricultores \cite{Rose:2019}. O uso em larga escala de Inteligência Artificial (IA), robótica e outras inovações emergentes, tem o claro potencial de causar consequências sociais não intencionais, imprevistas e indesejadas. Por esse motivo, é importante focar em uma parte fundamental para o sucesso da aplicação de novas tecnologias: o usuário.
 
-Grande parte das tecnologias adotadas pela Agricultura 4.0 está inserida (pelo menos em algum momento) em um sistema computacional. Sabe-se que um sistema computacional é basicamente composto pela \textit{entrada de dados}, o seu \textit{processamento} e a disponibilização dos seus \textit{resultados}. As duas últimas etapas dependem da qualidade da fonte de dados, ou seja, da entrada das informações \cite{Torres:2013}.
+Grande parte das tecnologias adotadas pela agricultura 4.0 está inserida (pelo menos em algum momento) em um sistema computacional. Sabe-se que um sistema computacional é basicamente composto pela \textit{entrada de dados}, o seu \textit{processamento} e a disponibilização dos seus \textit{resultados}. As duas últimas etapas dependem da qualidade da fonte de dados, ou seja, da entrada das informações \cite{Torres:2013}.
 
-No âmbito agrícola, por mais automatizados que possam estar os processos de obtenções dos dados, com sensores automáticos ou análise de imagens, por exemplo, há dois principais pontos que podem aumentar ainda mais a resistência à adoção das tecnologias: \textit{indisponibilidade de equipamentos} e \textit{conhecimento empírico}. No cenário atual, não são todos os agricultores que podem destinar parte do seu faturamento para a aquisição de equipamentos modernos que facilitariam a coleta de dados. Além disso, existe uma variável de grande importância que deve ser inserida na equação da agricultura 4.0, a experiência do agricultor com a sua propriedade e a sua área de atuação. Segundo \citeonline{Rose:2019} aproximar o usuário final do processo tecnológico, pode ser uma estratégia eficiente para a adoção de novas tecnologias. Dessa forma, pode ser necessária a adaptação de métodos, técnicas e ferramentas da Engenharia de Software, permitindo projetar, implementar e avaliar sistemas colaborativos eficientes para a Agricultura 4.0.
+No âmbito agrícola, por mais automatizados que possam estar os processos de obtenções dos dados, com sensores automáticos ou análise de imagens, por exemplo, há dois principais pontos que podem aumentar ainda mais a resistência à adoção das tecnologias: \textit{indisponibilidade de equipamentos} e \textit{conhecimento empírico}. No cenário atual, não são todos os agricultores que podem destinar parte do seu faturamento para a aquisição de equipamentos modernos que facilitariam a coleta de dados. Além disso, existe uma variável de grande importância que deve ser inserida na equação da agricultura 4.0, a experiência do agricultor com a sua propriedade e a sua área de atuação. Segundo \citeonline{Rose:2019} aproximar o usuário final do processo tecnológico, pode ser uma estratégia eficiente para a adoção de novas tecnologias. Dessa forma, pode ser necessária a adaptação de métodos, técnicas e ferramentas da Engenharia de Software, permitindo projetar, implementar e avaliar sistemas colaborativos eficientes para a agricultura 4.0.
 
 A motivação para o presente trabalho consiste no crescimento da agricultura 4.0, formada por diversos sistemas computacionais, bem como múltiplos usuários, que podem colaborar entre si de forma eficiente usando essas tecnologias para realizar tarefas. Dessa forma, métodos, técnicas e ferramentas da engenharia de \textit{software} devem ser estudados para verificar suas aplicações no projeto, implementação e avaliação de sistemas desse tipo.
 
-O presente projeto visa contribuir com determinados \textit{Objetivos de Desenvolvimento Sustentável}, descritos pela Organização das Nações Unidas \cite{ONU:2020}. No documento da organização, são descritos 17 objetivos que buscam concretizar os direitos humanos e promover a igualdade. Para isso, tais objetivos e metas foram definidos com o intuito de estimular ações para os próximos 15 anos, em áreas de importância crucial para a humanidade e para o planeta. Dentre os objetivos, dois deles têm relação direta com este trabalho:
+\section{Revisão da literatura}
+\label{sec:revisao_literatura}
 
-\begin{itemize}
-	\item \textit{Objetivo 2: Fome zero e agricultura sustentável} - Aumentar a eficiência da produção agrícola é consequência direta da proposta deste trabalho. A criação de sistemas colaborativos eficientes podem auxiliar na área, promovendo uma produção agrícola sustentável;
-	\item \textit{Objetivo 12: Consumo e produções sustentáveis} - Neste quesito, o trabalho contribui com a proposta de uma solução eficiente, acessível (utilizando um \textit{smartphone} como equipamento, por exemplo) e sem a necessidade da aquisição de novos equipamentos para integrações tecnológicas.
-\end{itemize}
+O apoio a tomada de descisão.
 
-\section{Objetivos}
-\label{sec:objetivos}
+A colaboração é uma questão importante a ser abordada, pois permite que múltiplos usuários, em diferentes plataformas de \textit{hardware} e \textit{software} e com diferentes tipos de representação da informação, trabalhem em um mesmo problema para resolução. Esse assunto é argumento na Seção \ref{sec:analise_critica_relevancia}
 
-A proposta deste projeto é partir da exploração de métodos, técnicas ou ferramentas de engenharia de software, no contexto da Agricultura 4.0, apoiar o desenvolvimento de sistemas. Para isso, será conduzido um estudo em engenharia de software para projetar, implementar e avaliar sistemas computacionais colaborativos eficientes, para auxiliar os usuários na realização de tarefas.
-
-A \textbf{colaboração} é uma questão importante a ser abordada, pois permite que múltiplos usuários, em diferentes plataformas de \textit{hardware} e \textit{software} e com diferentes tipos de representação da informação, trabalhem em um mesmo problema para resolução. Esse assunto é argumento na Seção \ref{sec:analise_critica_relevancia}
-
-A \textbf{eficiência} está relacionada à métricas para verificar qualidade, confiabilidade e desempenho de métodos, técnicas e ferramentas no desenvolvimento utilizando Engenharia de Software, bem como o próprio sistema colaborativo para a Agricultura 4.0. Na Seção \ref{sec:metodos_materiais} são fornecidos detalhes. Para isso, após definição do objeto de estudo principal do trabalho, deve-se desenvolver uma solução que aplique métricas e diretrizes delineadas com hipóteses para comprovação da eficiência.
+O usuário.
 
 \section{Trabalhos Relacionados}
 \label{sec:trabalhos_relacionados}
 
 O trabalho de \citeonline{Zhai:2020} apresenta como desafios para os sistemas de apoio a decisão agrícola: a simplificação de interfaces gráficas dos usuários e utilização de conhecimento dos especialistas do domínio do sistema. Além disso, são abordadas alternativas às entradas de dados comuns, como por exemplo: a utilização do reconhecimento de voz ou a utilização gestos. Outro ponto importante está relacionado ao processo de extração das informações da fonte de dados. Modelos tridimensionais, análise de imagens ou vídeos, e imagens interativas podem ser pontos ainda a serem explorados no contexto em que este trabalho se aplica. Para completar, a colaboração entre usuários também é pouco explorada.
 
-\citeonline{Gutierrez:2019} demonstram por meio da comparação de trabalhos, que a utilização de diversas fontes de informações de entradas é um ponto desejável para a automatização e autonomia na Agricultura 4.0. As principais comparações estão relacionadas às formas de visualização de dados processados nesse contexto. As entradas dos dados são tratadas de forma superficial, bem como a colaboração entre os usuários. Os autores reafirmam a preocupação do presente trabalho em inserir diversas dimensões em uma mesma fonte de dados, e que o processo de obtenção de dados refinados pode aprimorar os resultados obtidos.
+\citeonline{Gutierrez:2019} demonstram por meio da comparação de trabalhos, que a utilização de diversas fontes de informações de entradas é um ponto desejável para a automatização e autonomia na agricultura 4.0. As principais comparações estão relacionadas às formas de visualização de dados processados nesse contexto. As entradas dos dados são tratadas de forma superficial, bem como a colaboração entre os usuários. Os autores reafirmam a preocupação do presente trabalho em inserir diversas dimensões em uma mesma fonte de dados, e que o processo de obtenção de dados refinados pode aprimorar os resultados obtidos.
 
 Nos trabalhos de \citeonline{Walling:2020} e \citeonline{Lundstrom:2018} é mostrada a importância da participação do usuário no processo de obtenção de dados em sistemas relacionados a agricultra 4.0. Profissionais com a experiência de seu domínio, são capazes de enriquecer toda a cadeia de inferência nos sistemas de apoio a decisão, independente do domínio de conhecimento no qual os sistemas estão inseridos. Com esses estudos, fica claro que a participação multidisciplinar em toda a cadeia dos sistemas de apoio a decisão podem fazer uma diferença expressiva nos resultados.
 
 O sistema AgroDSS, explorado por \citeonline{Rupnik:2019}, é um exemplo de sistema em que a maioria dos dados coletados é baseada apenas em informações inseridas por meio de formulários de atributos textuais.
 
-Nos trabalhos, a exploração de métodos, técnicas e ferramentas da Engenharia de Software na Agricultura 4.0 é superficial. No entanto, a participação dos usuários no desenvolvimento e a implementação de interfaces humano-computador para entrada e saída de informações são pontos mencionados.
+Nos trabalhos, a exploração de métodos, técnicas e ferramentas da engenharia de software na agricultura 4.0 é superficial. No entanto, a participação dos usuários no desenvolvimento e a implementação de interfaces humano-computador para entrada e saída de informações são pontos mencionados.
 
-\section{Análise Crítica e Relevância}
-\label{sec:analise_critica_relevancia}
+\section{Justificativa}
+\label{sec:justificativa}
 
 No cenário agrícola, são vários os papéis dos profissionais que compõem toda a cadeia de produção. A obtenção dos dados utilizados nos sistemas computacionais de apoio à agricultura deve levar em consideração a diversidade de usuários, como agricultores, técnicos agrícolas, engenheiros agrônomos, entre outros. As experiências desses múltiplos profissionais poderiam ser utilizadas para os sistemas computacionais. Por exemplo, para uma nova praga identificada em uma folha de soja, o \textbf{agricultor} poderia inserir as informações relacionadas as suas experiências, como por exemplo se já houve alguma praga com indícios semelhantes aos encontrados, a quanto tempo, por quanto tempo, e como foi resolvido. Enquanto que o \textbf{engenheiro agrônomo} poderia inserir para esta mesma entrada informações extraídas de sua experiência em outras fazendas, \textbf{colaborando} para solucionar o problema de identificação dessa praga. Dessa forma consegue-se extrair diversas \textbf{dimensões} a partir de uma única entrada de dados \cite{Walling:2020}.
 
 Segundo uma pesquisa divulgada pela Fundação Getúlio Vargas (FGV-SP), o Brasil tem hoje dois dispositivos digitais por habitante, incluindo \textit{smartphones}, computadores, \textit{notebooks} e \textit{tablets} \cite{FGV:2020}. Nesse sentido, o país teria aproximadamente 420 milhões de aparelhos digitais ativos. Dessa forma, fica bastante claro que estes dispositivos já fazem parte do dia a dia de muitas pessoas, inclusive dos que fazem parte de toda a cadeia agrícola, sejam agricultores de pequeno e médio portes.
 
-A utilização de \textit{smartphones} e computadores propõe uma solução acessível para um dos pontos mencionados em \citeonline{Rose:2019}, que argumentam que é necessário ampliar as noções de ``inclusão'' em inovação responsável para atender às diversas formas de como os agricultores devem interagir com as fazendas inteligentes. Estes dispositivos já fazem parte da rotina de trabalho do público alvo, não sendo necessários outros investimentos ou aquisições, e ainda assim, possibilitando a inclusão desse público em novas ferramentas criadas para a Agricultura 4.0.
+A utilização de \textit{smartphones} e computadores propõe uma solução acessível para um dos pontos mencionados em \citeonline{Rose:2019}, que argumentam que é necessário ampliar as noções de ``inclusão'' em inovação responsável para atender às diversas formas de como os agricultores devem interagir com as fazendas inteligentes. Estes dispositivos já fazem parte da rotina de trabalho do público alvo, não sendo necessários outros investimentos ou aquisições, e ainda assim, possibilitando a inclusão desse público em novas ferramentas criadas para a agricultura 4.0.
 
-No cenário proposto pela Agricultura 4.0, grande parte dos trabalhos evidenciam que as informações que alimentam os sistemas, podem ser obtidas de forma automatizada, por meio de sensores ou pela análise de imagens, por exemplo. Entretanto, nem sempre essa é uma realidade aplicável a todos, pelo alto custo e difícil aderência. Outros sistemas, mesmo que completos em termos de sensores e outros recursos tecnológicos, utilizam ainda, entrada manual de informações por parte dos seus usuários, normalmente por meio de formulários com campos pré definidos (comumente dados no formato texto). Sensores e outros recursos também exigem monitoramento de energia, manutenção e desempenho.
+No cenário proposto pela agricultura 4.0, grande parte dos trabalhos evidenciam que as informações que alimentam os sistemas, podem ser obtidas de forma automatizada, por meio de sensores ou pela análise de imagens, por exemplo. Entretanto, nem sempre essa é uma realidade aplicável a todos, pelo alto custo e difícil aderência. Outros sistemas, mesmo que completos em termos de sensores e outros recursos tecnológicos, utilizam ainda, entrada manual de informações por parte dos seus usuários, normalmente por meio de formulários com campos pré definidos (comumente dados no formato texto). Sensores e outros recursos também exigem monitoramento de energia, manutenção e desempenho.
+
+Além disso, presente projeto visa contribuir com determinados \textit{objetivos de desenvolvimento sustentável}, descritos pela Organização das Nações Unidas \cite{ONU:2020}. No documento da organização, são descritos 17 objetivos que buscam concretizar os direitos humanos e promover a igualdade. Para isso, tais objetivos e metas foram definidos com o intuito de estimular ações para os próximos 15 anos, em áreas de importância crucial para a humanidade e para o planeta. Dentre os objetivos, dois deles têm relação direta com este trabalho:
+
+\begin{itemize}
+	\item \textit{Objetivo 2: fome zero e agricultura sustentável} - Aumentar a eficiência da produção agrícola é consequência direta da proposta deste trabalho. A criação de sistemas colaborativos eficientes podem auxiliar na área, promovendo uma produção agrícola sustentável;
+	\item \textit{Objetivo 12: consumo e produções sustentáveis} - Neste quesito, o trabalho contribui com a proposta de uma solução eficiente, acessível (utilizando um \textit{smartphone} como equipamento, por exemplo) e sem a necessidade da aquisição de novos equipamentos para integrações tecnológicas.
+\end{itemize}
+
+\section{Objetivos}
+\label{sec:objetivos}
+
+\subsection{Objetivo geral}
+\label{subsec:objetivo_geral}
+
+A proposta deste projeto é partir da exploração de métodos, técnicas ou ferramentas de engenharia de software, no contexto da agricultura 4.0, apoiar o desenvolvimento de sistemas. Para isso, será conduzido um estudo em engenharia de software para projetar, implementar e avaliar sistemas computacionais colaborativos, para auxiliar os usuários na realização de tarefas.
+
+\subsection{Objetivos específicos}
+\label{subsec:objetivos_especificos}
+
+\begin{itemize}
+	\item Pesquisar e avaliar sistemas de apoio à tomada de decisão e colaborativos, em especial os direcionados para agricultura 4.0, analisando seus pontos positivos e negativos;
+	\item Investigar e entender o perfil dos usuários inseridos no contexto agrícola;
+	\item Criar uma nova abordagem que direcione o desenvolvimento de sistemas computacionais, com foco na agricultura 4.0;
+	\item Avaliar a nova abordagem através da realização da implementação da proposta, seguida de experimentos e comparações com outras abordagem existentes;
+\end{itemize}
 
 \section{Problema a ser Investigado}
 \label{sec:problema_investigado}
 
-O principal problema de pesquisa a ser tratado por este trabalho está relacionado a questões sobre como projetar, implementar e avaliar sistemas computacionais colaborativos eficientes para apoiar a tomada de decisão dos usuários no domínio da Agricultura 4.0, usando métodos, técnicas e ferramentas da Engenharia de Software.
+O principal problema de pesquisa a ser tratado por este trabalho está relacionado a questões sobre como projetar, implementar e avaliar sistemas computacionais colaborativos eficientes para apoiar a tomada de decisão dos usuários no domínio da agricultura 4.0, usando métodos, técnicas e ferramentas da Engenharia de Software.
 
 Os seguintes tópicos resumem em linhas gerais, quais são os problemas a serem explorados durante o desenvolvimento do projeto:
 
 \subsection{Acesso às Tecnologias}
 \label{subsec:acesso_tecnologias}
 
-Grande parte dos trabalhos na literatura, como demonstrado em \cite{Massruha:2017}, possuem o foco nos processos de análise e apoio a decisão. Estes trabalhos de pesquisa, normalmente, são suportados por grandes instituições (como universidades e empresas de grande porte) que provêm recursos (como sensores ou drones) para a captação de dados no desenvolvimento dos experimentos. Com tais recursos, os experimentos tendem a focar nos processos que geram os resultados e consequentemente demonstram a eficiência e a eficácia das técnicas propostas pela Agricultura 4.0. Entretanto essa não é a realidade de grande parte dos agricultores, como argumenta \cite{Rose:2019}. Os estudos propostos por este trabalho, ajudam a resolver o problema da falta de acessibilidade aos recursos necessários para obtenção de dados, permitindo, mesmo que de uma forma menos eficiente e automatizada, a utilização de tecnologias da Agricultura 4.0 por qualquer usuário da cadeia agrícola que possua apenas um \textit{smartphone}.
+Grande parte dos trabalhos na literatura, como demonstrado em \cite{Massruha:2017}, possuem o foco nos processos de análise e apoio a decisão. Estes trabalhos de pesquisa, normalmente, são suportados por grandes instituições (como universidades e empresas de grande porte) que provêm recursos (como sensores ou drones) para a captação de dados no desenvolvimento dos experimentos. Com tais recursos, os experimentos tendem a focar nos processos que geram os resultados e consequentemente demonstram a eficiência e a eficácia das técnicas propostas pela agricultura 4.0. Entretanto essa não é a realidade de grande parte dos agricultores, como argumenta \cite{Rose:2019}. Os estudos propostos por este trabalho, ajudam a resolver o problema da falta de acessibilidade aos recursos necessários para obtenção de dados, permitindo, mesmo que de uma forma menos eficiente e automatizada, a utilização de tecnologias da agricultura 4.0 por qualquer usuário da cadeia agrícola que possua apenas um \textit{smartphone}.
 
 \subsection{Participação Ativa na Colaboração}
 \label{subsec:participacao_ativa_colaboracao}
@@ -113,7 +131,7 @@ No âmbito agrícola, é bastante comum grandes áreas de plantio. Mapear comple
 \subsection{Arguição dos Especialistas}
 \label{subsec:arquicao_especialistas}
 
-A utilização de recursos automatizados, como drones ou sensores, tendem a facilitar muito o processo de obtenção de dados em uma fazenda que aplica técnicas da Agricultura 4.0. Tratando de cenários nos quais essa já seja uma realidade, estes recursos automatizados normalmente apenas armazenam uma representação da realidade obtida em algum instante. Por exemplo, um sensor de umidade, poderia registrar os índices de umidade do solo a cada hora. Ou ainda, um drone, poderia fotografar uma área com baixa produtividade. Estes dados não levam em consideração alguns aspectos que poderiam ser enriquecidos com a arguição de um especialista, por exemplo um agrônomo. Por este motivo, este trabalho propõe a investigação de técnicas que possibilitem a inclusão de novas dimensões na coleta de dados, unindo por exemplo, a obtenção automática da umidade do solo com informações e experiências de agrônomos especialistas, que poderiam, por exemplo, informar que apesar de uma leitura de umidade ter ficado fora da expectativa, isso foi advento de uma anormalidade, por ele observada. 
+A utilização de recursos automatizados, como drones ou sensores, tendem a facilitar muito o processo de obtenção de dados em uma fazenda que aplica técnicas da agricultura 4.0. Tratando de cenários nos quais essa já seja uma realidade, estes recursos automatizados normalmente apenas armazenam uma representação da realidade obtida em algum instante. Por exemplo, um sensor de umidade, poderia registrar os índices de umidade do solo a cada hora. Ou ainda, um drone, poderia fotografar uma área com baixa produtividade. Estes dados não levam em consideração alguns aspectos que poderiam ser enriquecidos com a arguição de um especialista, por exemplo um agrônomo. Por este motivo, este trabalho propõe a investigação de técnicas que possibilitem a inclusão de novas dimensões na coleta de dados, unindo por exemplo, a obtenção automática da umidade do solo com informações e experiências de agrônomos especialistas, que poderiam, por exemplo, informar que apesar de uma leitura de umidade ter ficado fora da expectativa, isso foi advento de uma anormalidade, por ele observada. 
 
 Como há mais de um especialista em uma mesma tarefa, regras de colaboração devem ser especificadas. Adicionalmente, métodos, técnicas e ferramentas de Engenharia de Software para o desenvolvimento do sistema computacional que permitirá a colaboração deverão ser estudadas, auxiliando no projeto, implementação e avaliação.
 
@@ -129,10 +147,10 @@ Quando se trata de agricultura, há diversos tipos de cenários. Existem diverso
 
 A experiência do usuário com um dispositivo computacional pode influenciar diretamente na adoção de novas tecnologias ou sistemas. É bastante comum a resistência por parte de novos usuários na adoção de sistemas que ainda não tiverem contato. Como objeto de estudo deste trabalho, propõe-se ainda, descobertas relacionadas ao entendimento do perfil do público alvo, representando os usuários e suas peculiaridades. Criando, dessa forma, interfaces que possam ser objetivas, claras, atrativas e principalmente funcionais. Outro desafio a ser explorado é a interação multi-dimensional da entrada e análise de dados, que propõe-se ser refinada, simultaneamente, por diversos colaboradores e que resultem em uma única fonte de dados, possibilitando a inferência de apoio a decisão extraídas de dados refinados e alinhados com as realidades do cenário agrícola apontado por parte da cadeia que já atua na manutenção desta propriedade.
 
-\section{Problemas de Pesquisa}
-\label{subsec:problemas}
+\subsection{Características de sistemas colaborativos e seus possíveis problemas}
+\label{subsec:caracteristicas_problemas}
 
-A seguir lista-se características de sistemas colaborativos (gerais e específicos), relacionadas entre si, e seus possíveis problemas no contexto da Agricultura 4.0:
+A seguir lista-se características de sistemas colaborativos (gerais e específicos), relacionadas entre si, e seus possíveis problemas no contexto da agricultura 4.0:
 
 \begin{itemize}
 	\item \textbf{atualização em tempo real} - Problemas: múltiplos acessos simultâneos; necessidade de exibição de alertas e erros sobre atrasos; regras de funcionamento (entrada, processamento e saída);
@@ -173,42 +191,36 @@ Para ilustrar as possibilidades a serem exploradas, descreve-se a utilização d
 	\item O sistema computacional poderia ainda utilizar utilizar bases de informações compartilhadas entre diferentes regiões e usuários aumentando o refinamento na inferência das informações de apoio a decisão.
 \end{enumerate}
 
-\section{Métodos e Materiais}
-\label{sec:metodos_materiais}
-		
-Os métodos para a realização da pesquisa incluem:
+\section{Metodologia}
+\label{sec:metodologia}
 
-\begin{itemize}
-	\item Projeto e desenvolvimento de protótipos de sistemas computacionais colaborativos para validação;
-	\item Planejamento, organização e execução de experimentos envolvendo usuários, normalmente com a utilização de questionários para coletar opiniões referentes as percepções desses usuários na interação humano-computador, bem como no levantamento de requisitos, para verificar a importância das informações de entrada;
-	\item Revisão da literatura, podendo utilizar métodos formais de pesquisa, como a revisão sistemática, que fornece um protocolo para o levantamento bibliográfico \cite{Kitchenham:2004};
+As atividades para a realização da pesquisa incluem:
+
+\begin{enumerate}
+	\item Revisão da literatura e análise crítica, buscando explorar os pontos positivos e negativos dos trabalhos estudados, e quais seriam as correlações com a nova proposta a ser definida;
+	\item Criação e execução de um plano de análise das personas inseridas no contexto da agricultura 4.0. Nesta atividade, destaca-se a importância do trabalho em conjunto com a Embrapa \footnote{Empresa Brasileira de Pesquisa Agropecuária, situada em Londrina, trabalha principalmente com a produção da soja. A Embrapa é uma empresa pública de pesquisa vinculada ao ministério da agricultura, pecuária e bbastecimento do Brasil. O seu principal objetivo é a viabilização de soluções provenientes de pesquisas, além do desenvolvimento para a sustentabilidade da agricultura em benefício da sociedade brasileira.};
+	\item Criação de uma proposta inicial conceitual através do desenvolvimento e evolução de protótipos de sistemas computacionais colaborativos com foco na agricultura 4.0 e suas análises;
+	\item Aplicação da proposta conceitual através da criação de um sistema computacional colaborativo e de sua publicação para o público final;
+	\item Planejamento, organização e execução de experimentos envolvendo usuários. Com a utilização de questionários para coletar opiniões referentes as percepções sobre a utilização do sistema. Outras abordagens para obtenção de resultados podem ser empregadas:
+	\begin{itemize}
+		\item Testes A/B;
+		\item Análise de Abandono;
+		\item Avaliação do Aplicativo na Loja;
+		\item Análise de Usuários Ativos do Aplicativo.
+	\end{itemize}
 	\item Análise de resultados utilizando testes estatísticos para verificar a significância das diferenças entre os grupos amostrais comparados (Friedman, ANOVA – Análise da Variância, t-test, Wilcoxon, Mann-Whitnney etc); e estatística descritiva (principalmente gráficos). Os testes estatísticos dependem das características dos dados (normalidade da distribuição, homogeneidade das variâncias, independência e aleatoriedade na coleta etc) e oferecem intervalos de confiança para a análise.
-\end{itemize}
+\end{enumerate}
 
-Métodos, técnicas e ferramentas de Engenharia de Software serão estudados para uso no trabalho, auxiliando no projeto e desenvolvimento dos protótipos.
-
-Os materiais consistem em \textit{smartphones}, dos próprios usuários; bem como serviços de nuvem para processamento das informações adicionadas pelos usuários. Uma avaliação da aquisição de determinados sensores para medição de informações, tais como temperatura e umidade do solo, será realizada. Adicionalmente, informações de terceiros podem ser empregadas, tais como imagens de satélites e de sítios eletrônicos sobre o clima. 		
-
-A cultura foco provavelmente será a de soja, devido a parceria da UTFPR com a Empresa Brasileira de Pesquisa Agropecuária (Embrapa), situada em Londrina, que trabalha principalmente com a produção da soja. A Embrapa é uma empresa pública de pesquisa vinculada ao Ministério da Agricultura, Pecuária e Abastecimento do Brasil. O seu principal objetivo é a viabilização de soluções provenientes de pesquisas, além do desenvolvimento para a sustentabilidade da agricultura em benefício da sociedade brasileira. A parceria atualmente visa o desenvolvimento de dois sistemas:
-
-\begin{itemize}
-	\item Sistema para identificação de pragas, doenças e plantas daninhas da cultura de soja, com suporte \textit{web} e dispositivos móveis. A utilização de imagens capturadas pelos usuários é um dos requisitos do sistema;
-
-	\item Sistema para acompanhamento do crescimento da planta de soja, apresentando os estádios fenológicos, com suporte \textit{web} e dispositivos móveis. A utilização de modelos tridimensionais e vídeos para saída de informações ou visualização por parte dos usuários está prevista.
-\end{itemize}
-
-Esses sistemas ou módulos desses sistemas poderão ser empregados em estudos de caso, servindo como protótipos para validação, se necessários. 
-
-\section{Plano de Trabalho e Cronograma}
-\label{sec:plano_trabalho_cronograma}
+\section{Atividades}
+\label{sec:atividades}
 
 O plano de trabalho é composto pelas seguintes atividades principais, dispostas no cronograma apresentado na Tabela \ref{tab:cronograma}, separadas por quadrimestres de cada ano:
 
 \begin{enumerate}
 	\item Obtenção de créditos, cursando disciplinas;
 	\item Estudo de métodos para mapeamento ou revisão sistemática, permitindo o levantamento de trabalhos na literatura, bem como métodos, técnicas e ferramentas da Engenharia de Software para o desenvolvimento de protótipos;
-	\item Estudo do estado da arte, considerando métodos, técnicas e ferramentas de Engenharia de Software para projetar, implementar e avaliar sistemas computacionais colaborativos com dispositivos móveis voltados para a Agricultura 4.0;
-	\item Especificação de cenários para utilização de métodos, técnicas e ferramentas de Engenharia de Software no projeto, implementação e avaliação de colaboração no âmbito da Agricultura 4.0. A adaptação de métodos, técnicas e ferramentas pode ser necessária;
+	\item Estudo do estado da arte, considerando métodos, técnicas e ferramentas de Engenharia de Software para projetar, implementar e avaliar sistemas computacionais colaborativos com dispositivos móveis voltados para a agricultura 4.0;
+	\item Especificação de cenários para utilização de métodos, técnicas e ferramentas de Engenharia de Software no projeto, implementação e avaliação de colaboração no âmbito da agricultura 4.0. A adaptação de métodos, técnicas e ferramentas pode ser necessária;
 	\item Exame de proficiência de língua estrangeira;
 	\item Exame de qualificação;
 	\item Especificação de um sistema computacional colaborativo ou módulos desse sistema, indicando a arquitetura e principais desafios no desenvolvimento. Pode ser necessária a aplicação de métodos, técnicas e ferramentas selecionados, ou selecionados e adaptados, no processo de desenvolvimento;
@@ -218,6 +230,16 @@ O plano de trabalho é composto pelas seguintes atividades principais, dispostas
 	\item Redação da tese;
 	\item Defesa.
 \end{enumerate}
+
+\section{Resultados Esperados}
+\label{sec:resultados_esperados}
+
+Pretende-se com o estudo levantar métodos, técnicas e ferramentas de Engenharia de Software para o projeto, implementação e avaliação de sistemas computacionais colaborativos eficientes no contexto da agricultura 4.0, permitindo que usuários realizem tarefas para aumentar a produção agrícola de forma sustentável.
+
+Espera-se, por fim, a submissão de artigos para conferências e periódicos científicos da área de Ciência da Computação para publicação, como o \textit{ACM Computing Surveys}, \textit{Computer Graphics and Applications}, \textit{Journal on Interactive Systems}, \textit{Computers and Electronics in Agriculture}, \textit{Symposium on Applied Computing}, Simpósio Brasileiro de Engenharia de Software.
+
+\section{Cronograma}
+\label{sec:cronograma}
 
 As atividades e os períodos serão ajustados conforme o cronograma do Programa de Pós-Graduação em Informática da UFPR.
 
@@ -235,23 +257,14 @@ As atividades e os períodos serão ajustados conforme o cronograma do Programa 
 		6                   &            &            &           &            & •          &           &            &            &           &            &            &           \\ \hline
 		7                   &            &            &           &            & •          &           &            &            &           &            &            &           \\ \hline
 		8                   &            &            &           &            &            & •         & •          & •          &           &            &            &           \\ \hline
-	  9                  &            &            &           &            &            & •         & •          & •          & •         & •          & •          & •         \\ \hline
-		10                   &            &            &           &            &            &           &            &            &           & •          &            &           \\ \hline
+	  9                   &            &            &           &            &            & •         & •          & •          & •         & •          & •          & •         \\ \hline
+		10                  &            &            &           &            &            &           &            &            &           & •          &            &           \\ \hline
 		11                  &            &            &           &            &            &           &            &            &        &           & •          & •         \\ \hline
 		12                  &            &            &           &            &            &           &            &            &           &            &            & •         \\ \hline
 		\end{tabular}
 	\caption{Cronograma de Execução das Atividades}
 	\label{tab:cronograma}
 \end{table}
-
-Com o objetivo de manter a constante comunicação, e principalmente o acompanhamento e direcionamento das atividades, reuniões semanais devem ser realizadas. Estas reuniões podem ser realizadas de forma presencial (quando possível) ou por meio de vídeo chamadas.
-
-\section{Resultados Esperados}
-\label{sec:resultados_esperados}
-
-Pretende-se com o estudo levantar métodos, técnicas e ferramentas de Engenharia de Software para o projeto, implementação e avaliação de sistemas computacionais colaborativos eficientes no contexto da Agricultura 4.0, permitindo que usuários realizem tarefas para aumentar a produção agrícola de forma sustentável.
-
-Espera-se, por fim, a submissão de artigos para conferências e periódicos científicos da área de Ciência da Computação para publicação, como o \textit{ACM Computing Surveys}, \textit{Computer Graphics and Applications}, \textit{Journal on Interactive Systems}, \textit{Computers and Electronics in Agriculture}, \textit{Symposium on Applied Computing}, Simpósio Brasileiro de Engenharia de Software.
 
 \bibliography{project}
 
