@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  9 JUL 2020 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  10 JUL 2020 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,9 +460,9 @@ Package babel Info: Redefining portuges shorthand "|
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 53.
+(babel)             in language  on input line 55.
  [2]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 56.
@@ -479,12 +479,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 75.
+(babel)             in language  on input line 77.
 [3]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 78.
+
+Underfull \hbox (badness 1132) in paragraph at lines 85--86
+[]\OT1/ptm/m/n/12 A utiliza[][]ao de \OT1/ptm/m/it/12 smartpho-nes \OT1/ptm/m/n
+/12 e com-pu-ta-do-res, por se-rem equi-pa-men-tos de
+ []
+
 
 Underfull \hbox (badness 2469) in paragraph at lines 89--90
 []\OT1/ptm/m/n/12 Al[]em disso, pre-sente pro-jeto visa con-tri-buir com de-ter
@@ -534,12 +540,12 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 131.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
- [6]
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 140.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 144.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 144.
+ [6]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 145.
 Package babel Info: Redefining portuges shorthand "|
@@ -557,14 +563,14 @@ Underfull \hbox (badness 1748) in paragraph at lines 158--159
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 161.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 161.
 [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 170.
  [8]
 Underfull \hbox (badness 2096) in paragraph at lines 173--174
 []\OT1/ptm/b/n/12 classifica[][]ao da informa[][]ao ap[]os o pro-ces-sa-mento\O
@@ -574,9 +580,9 @@ T1/ptm/m/n/12 . Por exem-
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 177.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 188.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 188.
 [9]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 194.
@@ -595,11 +601,6 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 234.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 241.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 241.
- [11]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 241.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 265.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -607,12 +608,16 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 265.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 267.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 267.
 
-(./project.bbl
+[11] (./project.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 58.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 58.
  [12])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 271.
 Package babel Info: Redefining portuges shorthand "|
@@ -635,10 +640,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8432 strings out of 492649
- 126412 string characters out of 6129621
- 241583 words of memory out of 5000000
- 12121 multiletter control sequences out of 15000+600000
+ 8431 strings out of 492649
+ 126390 string characters out of 6129621
+ 246538 words of memory out of 5000000
+ 12120 multiletter control sequences out of 15000+600000
  25281 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,9n,40p,1127b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -654,7 +659,7 @@ t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on project.pdf (13 pages, 143361 bytes).
+Output written on project.pdf (13 pages, 142674 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  233 compressed objects within 3 object streams
