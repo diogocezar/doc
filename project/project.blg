@@ -7,45 +7,45 @@ Warning--entry type for "abnt-url-package=url" isn't style-file defined
 --line 199 of file abntex2-options.bib
 Database file #2: project.bib
 Warning--empty year in abnt-url-package=url
-You've used 14 entries,
+You've used 20 entries,
             1935 wiz_defined-function locations,
-            557 strings with 6260 characters,
-and the built_in function-call counts, 5037 in all, are:
-= -- 485
-> -- 211
-< -- 9
-+ -- 72
-- -- 70
-* -- 400
-:= -- 904
-add.period$ -- 43
-call.type$ -- 14
-change.case$ -- 104
-chr.to.int$ -- 14
-cite$ -- 15
-duplicate$ -- 197
-empty$ -- 347
-format.name$ -- 93
-if$ -- 980
+            601 strings with 8205 characters,
+and the built_in function-call counts, 8872 in all, are:
+= -- 832
+> -- 468
+< -- 14
++ -- 173
+- -- 165
+* -- 746
+:= -- 1549
+add.period$ -- 63
+call.type$ -- 20
+change.case$ -- 181
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 325
+empty$ -- 568
+format.name$ -- 196
+if$ -- 1747
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 74
-num.names$ -- 39
-pop$ -- 93
+missing$ -- 18
+newline$ -- 105
+num.names$ -- 59
+pop$ -- 178
 preamble$ -- 1
-purify$ -- 106
+purify$ -- 183
 quote$ -- 0
-skip$ -- 144
+skip$ -- 237
 stack$ -- 0
-substring$ -- 295
-swap$ -- 18
-text.length$ -- 1
+substring$ -- 508
+swap$ -- 52
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 82
+type$ -- 118
 warning$ -- 1
-while$ -- 34
+while$ -- 58
 width$ -- 0
-write$ -- 178
+write$ -- 260
 (There were 2 warnings)

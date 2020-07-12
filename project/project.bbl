@@ -1,5 +1,24 @@
 \begin{thebibliography}{}
 
+\bibitem[Devitt et~al. 2017]{Devitt:2017}
+Devitt, S., Perez, T., Polson, D., Pearce, T., Quagliata, R., Taylor, W.,
+  Thornby, D., and Beekhuyzen, J. (2017).
+\newblock A cognitive decision tool to optimise integrated weed management.
+\newblock In Nelson, W., editor, {\em Proceedings of the 7th Asian-Australasian
+  Conference on Precision Agriculture}, pages 1--8. Precision Agriculture
+  Association of New Zealand (PAANZ), New Zealand.
+
+\bibitem[Falloon et~al. 2018]{Fallon:2018}
+Falloon, P., Soares, M.~B., Manzanas, R., San-Martin, D., Liggins, F., Taylor,
+  I., Kahana, R., Wilding, J., Jones, C., Comer, R., {de Vreede}, E., {Som de
+  Cerff}, W., Buontempo, C., Brookshaw, A., Stanley, S., Middleham, R.,
+  Pittams, D., Lawrence, E., Bate, E., Peter, H., Uzell, K., and Richards, M.
+  (2018).
+\newblock The land management tool: Developing a climate service in southwest
+  uk.
+\newblock {\em Climate Services}, 9:86 -- 100.
+\newblock Climate services in practice: what we learnt from EUPORIAS.
+
 \bibitem[{Fundação Getúlio Vargas (FGV)} 2020]{FGV:2020}
 {Fundação Getúlio Vargas (FGV)} (2020).
 \newblock Pesquisa anual do uso de {TI}.
@@ -19,10 +38,24 @@ Lundström, C. and Lindblom, J. (2018).
   {CropSAT}.
 \newblock {\em Agricultural Systems}, 159:9 -- 20.
 
+\bibitem[Luvisi et~al. 2011]{Luvisi:2011}
+Luvisi, A., Pagano, M., Bandinelli, R., Rinaldelli, E., Gini, B., Scartòn, M.,
+  Manzoni, G., and Triolo, E. (2011).
+\newblock Virtual vineyard for grapevine management purposes: A rfid/gps
+  application.
+\newblock {\em Computers and Electronics in Agriculture}, 75(2):368 -- 371.
+
 \bibitem[Massruhá and de~Andrade~Leite 2017]{Massruha:2017}
 Massruhá, S. M. F.~S. and de~Andrade~Leite, M.~A. (2017).
 \newblock Agro 4.0 - rumo à agricultura digital.
 \newblock In {\em Embrapa Informática Agropecuária}, pages 28--35.
+
+\bibitem[{Mudisshu} et~al. 2016]{Mudisshu:2016}
+{Mudisshu}, A., {Murase}, T., and {Otsuka}, S. (2016).
+\newblock Meteorological data visualization application for mandarin farmers
+  support.
+\newblock In {\em 2016 5th IIAI International Congress on Advanced Applied
+  Informatics (IIAI-AAI)}, pages 900--903.
 
 \bibitem[{Organização das Nações Unidas} 2020]{ONU:2020}
 {Organização das Nações Unidas} (2020).
@@ -60,6 +93,13 @@ Souza, L. A.~M. and Sotsek, N.~C. (2017).
 \newblock Indústria 4.0: uma revisão sistemática da literatura nacional.
 \newblock In {\em XXXVII Encontro Nacional de Engenharia de Produção}.
 
+\bibitem[{Tan} et~al. 2012]{Tan:2012}
+{Tan}, L., {Haley}, R., {Wortman}, R., and {Zhang}, Q. (2012).
+\newblock An extensible and integrated software architecture for data analysis
+  and visualization in precision agriculture.
+\newblock In {\em 2012 IEEE 13th International Conference on Information Reuse
+  Integration (IRI)}, pages 271--278.
+
 \bibitem[Torres 2013]{Torres:2013}
 Torres, G. (2013).
 \newblock {\em Hardware}.
@@ -75,5 +115,12 @@ Walling, E. and Vaneeckhaute, C. (2020).
 Zhai, Z., Martínez, J.~F., Beltran, V., and Martínez, N.~L. (2020).
 \newblock Decision support systems for agriculture 4.0: Survey and challenges.
 \newblock {\em Computers and Electronics in Agriculture}, 170:105256.
+
+\bibitem[{Zheng} and {Altamimi} 2017]{Zheng:2017}
+{Zheng}, Y. and {Altamimi}, T. (2017).
+\newblock Innovative mobile visualization platform: Specification on a
+  prototype mobile application for agriculture.
+\newblock In {\em 2017 3rd IEEE International Conference on Cybernetics
+  (CYBCONF)}, pages 1--6.
 
 \end{thebibliography}
