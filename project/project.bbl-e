@@ -3,6 +3,11 @@
 \bibitem[aaaa ]{abnt-url-package=url}
 aaaa.
 
+\bibitem[Awad 1988]{Awad:1988}
+Awad, E. (1988).
+\newblock {\em Management Information System}.
+\newblock Benjamin-Cummings Publishing Company.
+
 \bibitem[Devitt et~al. 2017]{Devitt:2017}
 Devitt, S., Perez, T., Polson, D., Pearce, T., Quagliata, R., Taylor, W.,
   Thornby, D., and Beekhuyzen, J. (2017).
@@ -10,6 +15,11 @@ Devitt, S., Perez, T., Polson, D., Pearce, T., Quagliata, R., Taylor, W.,
 \newblock In Nelson, W., editor, {\em Proceedings of the 7th Asian-Australasian
   Conference on Precision Agriculture}, pages 1--8. Precision Agriculture
   Association of New Zealand (PAANZ), New Zealand.
+
+\bibitem[Ellis et~al. 1991]{Ellis:1991}
+Ellis, C., Simon, J., and Rein, G. (1991).
+\newblock Groupware: some issues and experiences.
+\newblock {\em Communications of the ACM}, 34(1):39--58.
 
 \bibitem[Falloon et~al. 2018]{Fallon:2018}
 Falloon, P., Soares, M.~B., Manzanas, R., San-Martin, D., Liggins, F., Taylor,
@@ -22,6 +32,10 @@ Falloon, P., Soares, M.~B., Manzanas, R., San-Martin, D., Liggins, F., Taylor,
 \newblock {\em Climate Services}, 9:86 -- 100.
 \newblock Climate services in practice: what we learnt from EUPORIAS.
 
+\bibitem[Fuks et~al. 2003]{Fuks:2003}
+Fuks, H., Raposo, A., and Gerosa, M.~A. (2003).
+\newblock Do modelo de colaboração 3c à engenharia de groupware.
+
 \bibitem[{Fundação Getúlio Vargas (FGV)} 2020]{FGV:2020}
 {Fundação Getúlio Vargas (FGV)} (2020).
 \newblock Pesquisa anual do uso de {TI}.
@@ -33,6 +47,17 @@ Gutiérrez, F., Htun, N.~N., Schlenz, F., Kasimati, A., and Verbert, K. (2019).
 \newblock A review of visualisations in agricultural decision support systems:
   An {HCI} perspective.
 \newblock {\em Computers and Electronics in Agriculture}, 163:104844.
+
+\bibitem[Jr. and Grudnitski 1989]{John:1989}
+Jr., J. G.~B. and Grudnitski, G. (1989).
+\newblock {\em Information Systems: Theory and Practice (Wiley Series in
+  Computing and Information Processing)}.
+\newblock Wiley.
+
+\bibitem[Lucas 1990]{Henry:1990}
+Lucas, H.~C. (1990).
+\newblock {\em Information Systems Concepts for Management}.
+\newblock McGraw-Hill Education (ISE Editions).
 
 \bibitem[Lundström and Lindblom 2018]{Lundstrom:2018}
 Lundström, C. and Lindblom, J. (2018).
@@ -53,6 +78,11 @@ Massruhá, S. M. F.~S. and de~Andrade~Leite, M.~A. (2017).
 \newblock Agro 4.0 - rumo à agricultura digital.
 \newblock In {\em Embrapa Informática Agropecuária}, pages 28--35.
 
+\bibitem[Mittra 1986]{Mittra:1986}
+Mittra, S. (1986).
+\newblock {\em Decision Support Systems: Tools and Techniques}.
+\newblock Wiley.
+
 \bibitem[{Mudisshu} et~al. 2016]{Mudisshu:2016}
 {Mudisshu}, A., {Murase}, T., and {Otsuka}, S. (2016).
 \newblock Meteorological data visualization application for mandarin farmers
@@ -72,18 +102,22 @@ Ribeiro, J.~G., Marinho, D.~Y., and Espinosa, J. W.~M. (2018).
   tecnológicas.
 \newblock {\em Simpósio de Engenharia de Produção}.
 
+\bibitem[Ritter 2014]{Frank:2014}
+Ritter, F.~E. (2014).
+\newblock {\em Foundations for Designing User-Centered Systems: What System
+  Designers Need to Know about People}.
+\newblock Benjamin-Cummings Publishing Company.
+
 \bibitem[Rose and Chilvers 2018]{Rose:2019}
 Rose, D.~C. and Chilvers, J. (2018).
 \newblock Agriculture 4.0: Broadening responsible innovation in an era of smart
   farming.
 \newblock {\em Frontiers in Sustainable Food Systems}, 2:87.
 
-\bibitem[Rupnik et~al. 2019]{Rupnik:2019}
-Rupnik, R., Kukar, M., Vračar, P., Košir, D., Pevec, D., and Bosnić, Z.
-  (2019).
-\newblock Agrodss: A decision support system for agriculture and farming.
-\newblock {\em Computers and Electronics in Agriculture}, 161:260 -- 271.
-\newblock BigData and DSS in Agriculture.
+\bibitem[Roth 2002]{Roth:2002}
+Roth, J. (2002).
+\newblock Seven challenges for developers of mobile groupware.
+\newblock {\em Workshop Mobile Ad Hoc Collaboration}.
 
 \bibitem[Shepherd et~al. 2018]{Shepherd:2018}
 Shepherd, M., Turner, J.~A., Small, B., and Wheeler, D. (2018).
@@ -96,17 +130,18 @@ Souza, L. A.~M. and Sotsek, N.~C. (2017).
 \newblock Indústria 4.0: uma revisão sistemática da literatura nacional.
 \newblock In {\em XXXVII Encontro Nacional de Engenharia de Produção}.
 
+\bibitem[Sprague and Watson 1991]{Sprague:1991}
+Sprague, R. and Watson, H. (1991).
+\newblock {\em Sistema de apoio {\`a} decis{\~a}o: colocando a teoria em
+  pr{\'a}tica}.
+\newblock ELSEVIER EDITORA.
+
 \bibitem[{Tan} et~al. 2012]{Tan:2012}
 {Tan}, L., {Haley}, R., {Wortman}, R., and {Zhang}, Q. (2012).
 \newblock An extensible and integrated software architecture for data analysis
   and visualization in precision agriculture.
 \newblock In {\em 2012 IEEE 13th International Conference on Information Reuse
   Integration (IRI)}, pages 271--278.
-
-\bibitem[Torres 2013]{Torres:2013}
-Torres, G. (2013).
-\newblock {\em Hardware}.
-\newblock NovaTerra.
 
 \bibitem[Walling and Vaneeckhaute 2020]{Walling:2020}
 Walling, E. and Vaneeckhaute, C. (2020).

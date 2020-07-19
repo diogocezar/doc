@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  12 JUL 2020 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  19 JUL 2020 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,24 +293,32 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 862.
 \ABCItoken=\toks19
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
 (./project.aux)
 \openout1 = `project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -382,7 +390,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -392,270 +400,223 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count118
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./project.out) (./project.out)
 \@outlinefile=\write3
 \openout3 = `project.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 30.
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 31.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OMS+pcr on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+pcr on input line 31.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 31.
 
-Overfull \hbox (51.20868pt too wide) in paragraph at lines 30--30
+Overfull \hbox (51.20868pt too wide) in paragraph at lines 31--31
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 37.
+(babel)             in language  on input line 38.
 
-Underfull \hbox (badness 2343) in paragraph at lines 40--41
+Underfull \hbox (badness 2343) in paragraph at lines 41--42
 \OT1/ptm/m/n/12 S[]ao gran-des os de-sa-fios re-la-ci-o-na-dos []a utiliza[][]a
 o de tec-no-lo-gias di-gi-tais como
  []
 
 
-Underfull \hbox (badness 4168) in paragraph at lines 40--41
+Underfull \hbox (badness 4168) in paragraph at lines 41--42
 \OT1/ptm/m/n/12 fer-ra-men-tas de apoio ao tra-ba-lho hu-mano de forma efi-ci-e
 nte, efi-caz e justa
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 46.
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 55.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 55.
+(babel)             in language  on input line 59.
  [2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 65.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 65.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 56.
-
-
-LaTeX Warning: Reference `sec:analise_critica_relevancia' on page 3 undefined o
-n input line 61.
-
+(babel)             in language  on input line 69.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 69.
+ [3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 71.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []\OT1/ptm/m/n/12 Nos tra-ba-lhos de [] e
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
+(babel)             in language  on input line 85.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 77.
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(babel)             in language  on input line 85.
+[4]
+Underfull \hbox (badness 1960) in paragraph at lines 86--87
+[]\OT1/ptm/m/n/12 No tra-ba-lho de [] argumenta-se so-bre a diminui[][]ao da
+ []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 94.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 88.
- [4]
+(babel)             in language  on input line 98.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 90.
-
-Underfull \hbox (badness 1132) in paragraph at lines 97--98
+(babel)             in language  on input line 98.
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 []\OT1/ptm/m/n/12 A utiliza[][]ao de \OT1/ptm/m/it/12 smartpho-nes \OT1/ptm/m/n
-/12 e com-pu-ta-do-res, por se-rem equi-pa-men-tos de
+/12 con-fi-gura uma solu[][]ao acess[]^^Pvel.
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 101--102
+Underfull \hbox (badness 1817) in paragraph at lines 101--102
+[] \OT1/ptm/m/n/12 ar-gu-men-tam que []e ne-cess[]ario am-pliar as no[][]oes de
+ ``in-
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 105--106
 []\OT1/ptm/m/n/12 Al[]em disso, pre-sente pro-jeto visa con-tri-buir com de-ter
 -mi-na-dos \OT1/ptm/m/it/12 ob-je-ti-vos
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 101--102
+Underfull \hbox (badness 3229) in paragraph at lines 105--106
 \OT1/ptm/m/it/12 de de-sen-vol-vi-mento sus-tent[]avel\OT1/ptm/m/n/12 , des-cri
 -tos pela Organiza[][]ao das Na[][]oes Uni-das
  []
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
+(babel)             in language  on input line 112.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 102.
-[5]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 104.
-
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
+(babel)             in language  on input line 115.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 108.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 111.
+(babel)             in language  on input line 125.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 116.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 126.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 133.
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-\OT1/ptm/m/n/12 Grande parte dos tra-ba-lhos na li-te-ra-tura, como de-mons-tra
-do em
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 137.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 137.
+(babel)             in language  on input line 125.
 [6]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 138.
+(babel)             in language  on input line 130.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 143.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
+(babel)             in language  on input line 142.
  [7]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 152.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 157.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 162.
-
-Underfull \hbox (badness 1014) in paragraph at lines 170--171
-[]\OT1/ptm/b/n/12 m[]ultiplos usu[]arios\OT1/ptm/m/n/12 . Por exem-plo: agri-cu
-l-to-res, t[]ecnicos agr[]^^Pcolas, en-ge-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 170--171
-\OT1/ptm/m/n/12 satisfa[][]ao, aces-si-bi-li-dade, memoriza[][]ao do usu[]ario)
-, en-vol-vendo in-ter-fa-ces
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 172.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 172.
-[8]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 181.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 181.
- [9]
-Underfull \hbox (badness 2096) in paragraph at lines 185--186
-[]\OT1/ptm/b/n/12 classifica[][]ao da informa[][]ao ap[]os o pro-ces-sa-mento\O
-T1/ptm/m/n/12 . Por exem-
- []
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 189.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 199.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 199.
-[10]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 147.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 213.
+(Font)              <7> on input line 154.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 213.
+(Font)              <5> on input line 154.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 163.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 224.
- [11]
+(babel)             in language  on input line 163.
+ [8]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 226.
+(babel)             in language  on input line 165.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 246.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 252.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 252.
- [12]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 253.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 277.
+(babel)             in language  on input line 190.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 212.
 
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 277.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 212.
 
 (./project.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 8.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 47.
- [13])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
+(babel)             in language  on input line 8.
+ [9]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 283.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 283.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
+(babel)             in language  on input line 65.
+ [10]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 161.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 161.
+ [11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 218.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 218.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./project.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
 Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: B6B52ED3A92E6FAE49140B568FD15619;1271.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: A21CCC8AAEC98CC087B5BB8E92D4CA67;651.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8452 strings out of 492649
- 126671 string characters out of 6129621
- 240844 words of memory out of 5000000
- 12134 multiletter control sequences out of 15000+600000
+ 8463 strings out of 492649
+ 126887 string characters out of 6129621
+ 244729 words of memory out of 5000000
+ 12156 multiletter control sequences out of 15000+600000
  25281 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,9n,40p,1127b,501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,10n,40p,1436b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -668,10 +629,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on project.pdf (14 pages, 149910 bytes).
+Output written on project.pdf (12 pages, 138966 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 82 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
