@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  19 JUL 2020 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  21 JUL 2020 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,16 +540,16 @@ Package babel Info: Redefining portuges shorthand "|
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 120.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 127.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 125.
+(babel)             in language  on input line 127.
 [6]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 130.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 144.
  [7]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 147.
@@ -558,12 +558,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 154.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 163.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 163.
- [8]
-Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 165.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 171.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 171.
+ [8]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 183.
 Package babel Info: Redefining portuges shorthand "|
@@ -578,26 +578,21 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 
 (./project.bbl
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 15.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 8.
+(babel)             in language  on input line 15.
  [9]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
+(babel)             in language  on input line 72.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 65.
- [10]
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 161.
- [11])
+(babel)             in language  on input line 72.
+ [10])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 218.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 218.
- [12]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
  (./project.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
@@ -610,13 +605,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8463 strings out of 492649
- 126887 string characters out of 6129621
+ 8462 strings out of 492649
+ 126880 string characters out of 6129621
  244729 words of memory out of 5000000
  12156 multiletter control sequences out of 15000+600000
  25281 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,10n,40p,1436b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,10n,40p,1501b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -629,10 +624,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/t
 imes/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on project.pdf (12 pages, 138966 bytes).
+Output written on project.pdf (11 pages, 138386 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 209 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
