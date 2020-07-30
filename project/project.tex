@@ -38,7 +38,7 @@ A agricultura 4.0 explora a utilização das mais recentes tecnologias computaci
 \section{Introdução}
 \label{sec:introducao}
 
-São grandes os desafios relacionados à utilização de tecnologias digitais como ferramentas de apoio ao trabalho humano de forma eficiente, eficaz e justa \cite{Rose:2019}. Para isso, a humanidade apoia-se nas descobertas que proporcionam resultados relevantes, alcançados por meio da exploração de métodos, técnicas e ferramentas.
+São grandes os desafios relacionados à utilização de tecnologias digitais como ferramentas de apoio ao trabalho humano de forma eficiente e eficaz \cite{Rose:2019}. Para isso, a humanidade apoia-se nas descobertas que proporcionam resultados, alcançados por meio da exploração de métodos, técnicas e ferramentas.
 
 Muito tem se falado sobre a Quarta Revolução Industrial, que surge em 2011 na Alemanha, com a proposta de oferecer para a indústria o que há de mais moderno em automação e sistemas inteligentes, possibilitando uma série de melhorias como a redução dos custos, a economia de energia e o aumento da segurança. Essas e outras melhorias têm sido exploradas por meio da utilização de ferramentas e tecnologias computacionais, tais como \textit{big data}, \textit{analytics}, serviços de nuvem, impressões 3D, segurança cibernética, robôs autônomos, Internet das Coisas, sensores sem fio, realidade aumentada, simulações, integração horizontal e integração vertical \cite{Souza:2017}.
 
@@ -50,7 +50,7 @@ Essas tecnologias permitem o monitoramento das plantações para apoiar a tomada
 
 Adicionalmente, no cenário atual, não são todos os agricultores que podem destinar parte do seu faturamento para a aquisição de equipamentos (quantidade e qualidade), como sensores, que facilitariam a coleta de dados e o monitoramento da plantação. E existe também uma variável de grande importância que deve ser inserida na equação da agricultura 4.0, a experiência do agricultor ou usuário com a sua propriedade e a sua área de atuação, possibilitando a colaboração entre usuários para a divisão de tarefas e controle de um sistema computacional complexo. Segundo \citeonline{Rose:2019} aproximar o usuário final do processo do desenvolvimento de sistemas para a agricultura 4.0, pode ser uma estratégia eficiente para a adoção de novas tecnologias.
 
-Finalmente, a Engenharia de Software estuda métodos, técnicas e ferramentas que auxiliam no desenvolvimento de sistemas computacionais. Dessa forma, o presente trabalho consiste na criação de um método para o desenvolvimento de sistemas computacionais no contexto da agricultura 4.0, que permita a colaboração entre os usuários e o monitoramento da plantação para a tomada de decisão.
+Finalmente, a Engenharia de Software estuda métodos, técnicas e ferramentas que auxiliam no desenvolvimento de sistemas computacionais \cite{Sommerville:2011}. Dessa forma, o presente trabalho consiste na proposta de um método, técnica ou ferramenta para o desenvolvimento de sistemas computacionais no contexto da agricultura 4.0, que permita a colaboração entre os usuários e o monitoramento da plantação para a tomada de decisão.
 
 \section{Revisão da literatura}
 \label{sec:revisao_literatura}
@@ -138,15 +138,15 @@ O problema a ser investigado é como desenvolver sistemas computacionais de moni
 
 No âmbito agrícola, é bastante comum grandes áreas de plantio. Mapear completamente uma área com dispositivos automatizados poderia gerar um custo muito grande para os agricultores, principalmente com a necessidade de manutenção dos equipamentos que captam as informações dos campos, bem como o consumo de energia elétrica por estes dispositivos.
 
-Dessa forma, a Engenharia de Software pode fornecer métodos, técnicas e ferramentas para o desenvolvimento gradual e adaptativo de sistemas computacionais de monitoramento e colaboração na agricultura 4.0 para apoiar a tomada de decisão. Gradual porque pode ser por etapas, conforme a cobertura de internet avança para regiões afastadas na área agrícola, conforme sensores ou outros equipamentos são adquiridos, conforme os usuários aprendem a trabalhar com sistemas computacionais. Adaptativo porque equipamentos que não podem ser adquiridos em uma determinada etapa podem ser substituídos por dispositivos disponíveis, como os \textit{smartphones}, que possuem recursos, tais como interface gráfica para inserção de informações, câmera, conexão com a Internet.
+Dessa forma, a Engenharia de Software pode fornecer métodos, técnicas e ferramentas para o desenvolvimento gradual e adaptativo de sistemas computacionais de monitoramento e colaboração na agricultura 4.0 para apoiar a tomada de decisão. Gradual porque pode ser por etapas, conforme a cobertura de internet avança para regiões afastadas na área agrícola, conforme sensores ou outros equipamentos são adquiridos, conforme os usuários aprendem a trabalhar com sistemas computacionais. Adaptativo porque equipamentos que não podem ser adquiridos em uma determinada etapa podem ser substituídos por dispositivos disponíveis, como os \textit{smartphones}, que possuem recursos, tais como interface gráfica para inserção e visualização de informações, câmera, conexão com a Internet.
 
 A utilização de recursos automatizados, como drones ou sensores, tendem a facilitar muito o processo de obtenção de dados em uma fazenda que aplica técnicas da agricultura 4.0. Tratando de cenários nos quais essa já seja uma realidade, estes recursos automatizados normalmente apenas armazenam uma representação da realidade obtida em algum instante. Por exemplo, um sensor de umidade, poderia registrar os índices de umidade do solo a cada hora. Ou ainda, um drone, poderia fotografar uma área com baixa produtividade. Estes dados não levam em consideração alguns aspectos que poderiam ser enriquecidos com a arguição de um especialista, por exemplo um agrônomo. A inclusão de novas dimensões na coleta de dados, unindo por exemplo, a obtenção automática da umidade do solo com informações e experiências de agrônomos especialistas, poderiam, por exemplo, informar que apesar de uma leitura de umidade ter ficado fora da expectativa, isso foi advento de uma anormalidade, por ele observada. Como há mais de um especialista em uma mesma tarefa, regras de colaboração devem ser especificadas.
 
-Para os cenários nos quais se utiliza a captação automática dos dados, grande parte das abordagens vistas em \cite{Massruha:2017} fazem essa captura de forma contínua e interruptamente, propondo abordagens que tratem grandes volumes de dados.
+Para os cenários nos quais se utiliza a captação automática dos dados, grande parte das abordagens vistas em \cite{Massruha:2017} fazem essa captura de forma contínua e interruptamente, propondo abordagens que tratem grandes volumes de dados. A disponibilidade das informações de monitoramento é uma questão a ser levada em consideração.
 
-A experiência do usuário com um dispositivo computacional pode influenciar diretamente na adoção de novas tecnologias ou sistemas. É bastante comum a resistência por parte de novos usuários na adoção de sistemas com que ainda não tiverem contato. Desse modo, são relevantes descobertas relacionadas ao entendimento do perfil do público alvo, representando os usuários e suas peculiaridades para criar interfaces que possam ser objetivas, claras, atrativas e principalmente funcionais. Outro desafio a ser explorado é a interação multidimensional da entrada e análise de dados, que propõe-se ser refinada, simultaneamente, por diversos colaboradores e que resultem em uma única fonte de dados, possibilitando a inferência de apoio a decisão extraídas de dados refinados e alinhados com as realidades do cenário agrícola apontado por parte da cadeia que já atua na produção agrícola.
+A experiência do usuário com um dispositivo computacional pode influenciar diretamente na adoção de novas tecnologias ou sistemas. É comum a resistência por parte de novos usuários na adoção de sistemas com que ainda não tiverem contato. Desse modo, são relevantes descobertas relacionadas ao entendimento do perfil do público alvo, representando os usuários e suas peculiaridades para criar interfaces que possam ser objetivas, claras, atrativas e principalmente funcionais. Outro desafio a ser explorado é a interação multidimensional da entrada e análise de dados, que propõe-se ser refinada, simultaneamente, por diversos colaboradores e que resultem em uma única fonte de dados, possibilitando a inferência de apoio a decisão extraídas de dados refinados e alinhados com as realidades do cenário agrícola apontado por parte da cadeia que já atua na produção agrícola. A dependência do usuário também deve ser levada em conta.
 
-Em adição ao método, técnicas podem ser utilizadas para definir e implementar camadas (elementos, relações internas e externas), bem como ferramentas, para permitir a visualização da arquitetura de camadas. As camadas podem ser definidas de acordo com os tipos de informação (umidade do solo, fertilidade do solo, temperatura do ambiente, chuvas, pragas, ervas daninhas, doenças, folha da planta, altura da planta, densidade da vegetação), contendo o número e a disposição dos sensores e outros equipamentos, as relações entre sensores de uma camada e entre as camadas, os sensores virtuais (substituídos ou adaptados).
+Para definir o método, técnicas podem ser utilizadas para definir e implementar camadas (elementos, relações internas e externas), bem como ferramentas, para permitir a visualização da arquitetura de camadas. As camadas podem ser definidas de acordo com os tipos de informação (umidade do solo, fertilidade do solo, temperatura do ambiente, chuvas, pragas, ervas daninhas, doenças, folha da planta, altura da planta, densidade da vegetação), contendo o número e a disposição dos sensores e outros equipamentos, as relações entre sensores de uma camada e entre as camadas, os sensores virtuais (substituídos ou adaptados).
 
 \section{Metodologia}
 \label{sec:metodologia}
@@ -194,7 +194,7 @@ Espera-se, por fim, a submissão de artigos para conferências e periódicos cie
 \section{Cronograma}
 \label{sec:cronograma}
 
-As atividades e os períodos serão ajustados conforme o cronograma do Programa de Pós-Graduação em Informática da UFPR.
+As atividades e os períodos serão ajustados conforme o cronograma do Programa de Pós-Graduação em Informática da UFPR e o andamento do trabalho.
 
 \begin{table}[htbp]
 	\centering
@@ -216,6 +216,7 @@ As atividades e os períodos serão ajustados conforme o cronograma do Programa 
 	\caption{Cronograma de Execução das Atividades}
 	\label{tab:cronograma}
 \end{table}
+
 
 \bibliography{project}
 

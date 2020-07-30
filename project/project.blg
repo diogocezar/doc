@@ -8,45 +8,45 @@ Warning--entry type for "abnt-url-package=url" isn't style-file defined
 Database file #2: project.bib
 Warning--empty year in abnt-url-package=url
 Warning--empty booktitle in Fuks:2003
-You've used 27 entries,
+You've used 28 entries,
             1935 wiz_defined-function locations,
-            638 strings with 9009 characters,
-and the built_in function-call counts, 10829 in all, are:
-= -- 1012
-> -- 525
-< -- 20
-+ -- 189
-- -- 181
-* -- 876
-:= -- 1907
-add.period$ -- 82
-call.type$ -- 27
-change.case$ -- 219
-chr.to.int$ -- 27
-cite$ -- 29
-duplicate$ -- 425
-empty$ -- 727
-format.name$ -- 223
-if$ -- 2128
+            643 strings with 9092 characters,
+and the built_in function-call counts, 11104 in all, are:
+= -- 1037
+> -- 532
+< -- 21
++ -- 191
+- -- 183
+* -- 893
+:= -- 1958
+add.period$ -- 85
+call.type$ -- 28
+change.case$ -- 224
+chr.to.int$ -- 28
+cite$ -- 30
+duplicate$ -- 439
+empty$ -- 750
+format.name$ -- 226
+if$ -- 2182
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 138
-num.names$ -- 80
-pop$ -- 237
+missing$ -- 32
+newline$ -- 143
+num.names$ -- 83
+pop$ -- 245
 preamble$ -- 1
-purify$ -- 226
+purify$ -- 232
 quote$ -- 0
-skip$ -- 307
+skip$ -- 317
 stack$ -- 0
-substring$ -- 584
-swap$ -- 58
+substring$ -- 596
+swap$ -- 59
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 150
+type$ -- 154
 warning$ -- 2
-while$ -- 73
+while$ -- 75
 width$ -- 0
-write$ -- 340
+write$ -- 352
 (There were 3 warnings)
